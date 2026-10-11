@@ -1,0 +1,30 @@
+# raw file   output name (under public/photos, no extension)
+# Face numbering is a guess at clockwise walking order from the photo sequence. Fix here if wrong.
+IMG_1935 ref/hall-map
+IMG_1962 ref/grade-ladder
+IMG_1961 ref/etiquette
+IMG_1937 jawa/jawa-f1-2026-10-11-anchor
+IMG_1936 jawa/jawa-f1-2026-10-11-angle-01
+IMG_1938 jawa/jawa-f2-2026-10-11-anchor
+IMG_1940 jawa/jawa-f3-2026-10-11-anchor
+IMG_1939 jawa/jawa-f3-2026-10-11-angle-01
+IMG_1942 jawa/jawa-f4-2026-10-11-anchor
+IMG_1941 jawa/jawa-f4-2026-10-11-angle-01
+IMG_1943 jawa/jawa-f4-2026-10-11-angle-02
+IMG_1945 jawa/jawa-f5-2026-10-11-anchor
+IMG_1944 jawa/jawa-f5-2026-10-11-angle-01
+IMG_1946 jawa/jawa-f5-2026-10-11-angle-02
+IMG_1948 jawa/jawa-f6-2026-10-11-anchor
+IMG_1947 jawa/jawa-f6-2026-10-11-angle-01
+IMG_1949 jawa/jawa-f6-2026-10-11-angle-02
+IMG_1951 jawa/jawa-f7-2026-10-11-anchor
+IMG_1950 jawa/jawa-f7-2026-10-11-angle-01
+IMG_1952 jawa/jawa-f7-2026-10-11-angle-02
+IMG_1954 jawa/jawa-f8-2026-10-11-anchor
+IMG_1953 jawa/jawa-f8-2026-10-11-angle-01
+IMG_1955 jawa/jawa-f8-2026-10-11-angle-02
+IMG_1956 jawa/jawa-f8-2026-10-11-angle-03
+IMG_1957 jawa/jawa-f8-2026-10-11-angle-04
+IMG_1959 jawa/jawa-f9-2026-10-11-anchor
+IMG_1958 jawa/jawa-f9-2026-10-11-angle-01
+IMG_1960 jawa/jawa-f9-2026-10-11-angle-02

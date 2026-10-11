@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+*.local
+# raw phone photos stay out of git; web-sized copies live in public/photos
+raw-assets/
+tsconfig.tsbuildinfo
+# photogrammetry working files; keep only the small text model
+model/images/
+model/colmap/
+# Object Capture working files and build output
+model/objcap/
+scripts/objcap/build/
+public/objcap/
