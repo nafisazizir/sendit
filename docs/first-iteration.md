@@ -5,8 +5,9 @@ Written 11 Oct 2026, the same day as the photos. Phase 1 of `SPEC.md` is "one Ja
 ## What exists now
 
 - All nine Jawa faces wired up with anchor and angle photos from the 11 Oct shoot (web-sized, metadata stripped).
-- Three faces labelled with hold outlines: **F3** (18 holds), **F4** (18), **F8** (39). Outlines were estimated off the photos by eye and are rough; the editor is there to fix them.
-- 12 problems grouped from hold colour, position and the START/FINISH tags visible in the photos. **All are marked unverified.** Two cross a corner (blue F3→F4, purple F5→F4), which exercises the hard data-model case.
+- **All nine faces labelled** with hold outlines by eye from the photos (202 holds after removing 56 cross-face duplicates found by projecting every outline through the SfM camera poses — `scripts/dedupe-holds.py`). Outlines are rough; the editor is there to fix them. `model/check/holds-fN.jpg` shows each face's outlines with indices.
+- **24 problems** grouped from hold colour, position and the START/FINISH tags readable in zoomed crops. **All are marked unverified**; each has a note with the labeller's reasoning and confidence. Nine cross a corner. 13 holds could not be assigned (unreadable tags) and sit in no problem.
+- Labelling was done face by face in parallel (`model/labels/jawa-fN.json` fragments, merged by `scripts/merge-labels.mjs`). F5's anchor is centred on the arete, so the holds between the F5/F6 arete and F6's anchor frame are outlined in F5's photo with a note (`f5c-*`); F6's anchor should be reshot wider.
 - Viewer: pinch/wheel zoom, pan, double-tap zoom, problem spotlight with S/T badges, zoom-to-problem, cross-face jump chips, grade filter.
 - Editor: draw outlines by tapping, drag corners, colour/type/note, assign to problem, start/top, new/delete problems, verified flag, set date. Draft kept in the browser; Save writes `src/data/jawa.json` through the dev server; Download as fallback.
 - Block view: Jawa as a nine-face prism in three.js with the anchor photos projected on it and the same outlines drawn; tap a hold to spotlight its problem in 3D, tap a face to open it. Built to answer "do I want to *see the block* rather than page through faces?" — compare the two on your phone.
@@ -27,7 +28,7 @@ Written 11 Oct 2026, the same day as the photos. Phase 1 of `SPEC.md` is "one Ja
 - [ ] Open the Network URL on your phone and stand at F4. Does the zoom feel right? Do highlighted holds read at arm's length? Is the dim-everything-else spotlight too dark for the photo? Note what annoys you; that list is the real output of phase 1.
 - [ ] Switch to **Block** at the same spot. Which do you reach for to find a problem on the far side: orbiting the block, or ‹ › through faces? That answers the 3D-vs-photo question with real evidence instead of taste.
 - [ ] Measure **one** thing to fix the block's scale: the T-nut pitch along a row (hole centre to hole centre) or the wall height. Widths along the mat edge for F4 and F6 would be a good cross-check. See `docs/model.md`.
-- [ ] Verify the 12 problems against the wall. Tick "Checked at the wall" in the editor as you go. Fix the groupings that are wrong; I expect several.
+- [ ] Verify the 24 problems against the wall, a face at a time. Tick "Checked at the wall" in the editor as you go. Expect several wrong groupings; the problem notes say where the labeller was guessing.
 - [ ] Read the tags I could not: F3 white hold, F3 green crimp, F8 red big (top-left), F8 orange on the pyramid, F8 red right. Put the tag text in the hold note.
 - [ ] Retake straight-on anchors for F1, F5, F6, F8, F9 (already on the spec list). F3's anchor has a person in it too.
 - [ ] Ask staff for the set-up date of the current Jawa set and put it in the editor ("Set went up").
@@ -52,9 +53,9 @@ Written 11 Oct 2026, the same day as the photos. Phase 1 of `SPEC.md` is "one Ja
 
 ## Suggested order for phase 2
 
-1. Label F5 so the purple F5→F4 problem and the black line are complete. F5 is the arete and the hardest photo; an angled anchor may be enough for now.
-2. Then F2, F1, F9, F6, F7. Time each face; the spec target is under 15 minutes.
-3. Once a face is comfortably under 15 minutes, write down what slowed you down. That is the brief for the "proper editor" in phase 2.
+1. Correct, don't create: every face already has outlines and guessed problems. Time how long one face takes to *verify and fix* in the editor; the spec's target for a face is under 15 minutes.
+2. Write down what slowed you down. That is the brief for the "proper editor" in phase 2 (likely: faster vertex nudging, a "split problem" action, reading tags from close-up photos inside the editor).
+3. Hall map: Jawa's rotation on the floor plan and the other walls' outlines are guesses from the printed map; fix them when you have measured anything.
 
 ## Open questions from the spec I could partly answer from the photos
 

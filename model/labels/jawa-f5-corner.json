@@ -1,0 +1,427 @@
+{
+ "faceId": "jawa-f5",
+ "holds": [
+  {
+   "id": "f5c-red-kidney",
+   "colour": "red",
+   "type": "hold",
+   "outline": [
+    [
+     0.6725,
+     0.2671
+    ],
+    [
+     0.69,
+     0.2757
+    ],
+    [
+     0.7075,
+     0.3057
+    ],
+    [
+     0.72,
+     0.3413
+    ],
+    [
+     0.7185,
+     0.3732
+    ],
+    [
+     0.7075,
+     0.3957
+    ],
+    [
+     0.69,
+     0.3991
+    ],
+    [
+     0.6725,
+     0.3863
+    ],
+    [
+     0.665,
+     0.3601
+    ],
+    [
+     0.6475,
+     0.3357
+    ],
+    [
+     0.63,
+     0.3151
+    ],
+    [
+     0.6285,
+     0.2907
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; big red kidney/bean bowl near the top, no tag seen.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5c-black-start",
+   "colour": "black",
+   "type": "hold",
+   "outline": [
+    [
+     0.5415,
+     0.5476
+    ],
+    [
+     0.551,
+     0.5364
+    ],
+    [
+     0.559,
+     0.5353
+    ],
+    [
+     0.5625,
+     0.5439
+    ],
+    [
+     0.5615,
+     0.5626
+    ],
+    [
+     0.5625,
+     0.5739
+    ],
+    [
+     0.5565,
+     0.5784
+    ],
+    [
+     0.5485,
+     0.5746
+    ],
+    [
+     0.545,
+     0.5626
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; just round the arete, two small tags at its lower-left (one reads like START, rotated; the other a symbol/number), same style as the START tag under f5-black-knob.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5c-white-start",
+   "colour": "white",
+   "type": "hold",
+   "outline": [
+    [
+     0.6915,
+     0.6422
+    ],
+    [
+     0.695,
+     0.6399
+    ],
+    [
+     0.6985,
+     0.6429
+    ],
+    [
+     0.698,
+     0.6489
+    ],
+    [
+     0.695,
+     0.653
+    ],
+    [
+     0.692,
+     0.6512
+    ],
+    [
+     0.6905,
+     0.6459
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; white hold with red end caps tucked under the base-right corner of the upper purple spike, mostly hidden in this view (only a red cap and tags visible; seen clearly in jawa-f5 angle-02 and jawa-f6 angle-01). START tag plus a symbol tag.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5c-vol-purple-spike-upper",
+   "colour": "purple",
+   "type": "volume",
+   "outline": [
+    [
+     0.618,
+     0.4471
+    ],
+    [
+     0.64,
+     0.5064
+    ],
+    [
+     0.67,
+     0.5814
+    ],
+    [
+     0.69,
+     0.6339
+    ],
+    [
+     0.6965,
+     0.6497
+    ],
+    [
+     0.6725,
+     0.659
+    ],
+    [
+     0.665,
+     0.6665
+    ],
+    [
+     0.63,
+     0.662
+    ],
+    [
+     0.6125,
+     0.659
+    ],
+    [
+     0.6145,
+     0.5626
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; tall thin purple triangle volume (Voltomic), apex up.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5c-vol-purple-spike-lower",
+   "colour": "purple",
+   "type": "volume",
+   "outline": [
+    [
+     0.624,
+     0.6647
+    ],
+    [
+     0.646,
+     0.6695
+    ],
+    [
+     0.6725,
+     0.7502
+    ],
+    [
+     0.69,
+     0.7877
+    ],
+    [
+     0.7,
+     0.8252
+    ],
+    [
+     0.65,
+     0.8578
+    ],
+    [
+     0.641,
+     0.859
+    ],
+    [
+     0.636,
+     0.7689
+    ],
+    [
+     0.63,
+     0.6977
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; tall thin purple triangle volume below the upper one, apex down-left.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5c-purple-ball-arete",
+   "colour": "purple",
+   "type": "hold",
+   "outline": [
+    [
+     0.56,
+     0.7956
+    ],
+    [
+     0.5558,
+     0.8068
+    ],
+    [
+     0.5448,
+     0.8138
+    ],
+    [
+     0.5312,
+     0.8138
+    ],
+    [
+     0.5202,
+     0.8068
+    ],
+    [
+     0.516,
+     0.7956
+    ],
+    [
+     0.5202,
+     0.7843
+    ],
+    [
+     0.5312,
+     0.7774
+    ],
+    [
+     0.5448,
+     0.7774
+    ],
+    [
+     0.5558,
+     0.7843
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; magenta/purple ball right at the arete, no tag seen.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5c-purple-ball-low-left",
+   "colour": "purple",
+   "type": "hold",
+   "outline": [
+    [
+     0.655,
+     0.8747
+    ],
+    [
+     0.6509,
+     0.8857
+    ],
+    [
+     0.6401,
+     0.8926
+    ],
+    [
+     0.6269,
+     0.8926
+    ],
+    [
+     0.6161,
+     0.8857
+    ],
+    [
+     0.612,
+     0.8747
+    ],
+    [
+     0.6161,
+     0.8637
+    ],
+    [
+     0.6269,
+     0.8569
+    ],
+    [
+     0.6401,
+     0.8569
+    ],
+    [
+     0.6509,
+     0.8637
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; magenta/purple ball near the floor under the lower spike, no tag seen.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5c-purple-ball-low-right",
+   "colour": "purple",
+   "type": "hold",
+   "outline": [
+    [
+     0.719,
+     0.8571
+    ],
+    [
+     0.7163,
+     0.8644
+    ],
+    [
+     0.7093,
+     0.8689
+    ],
+    [
+     0.7007,
+     0.8689
+    ],
+    [
+     0.6937,
+     0.8644
+    ],
+    [
+     0.691,
+     0.8571
+    ],
+    [
+     0.6937,
+     0.8498
+    ],
+    [
+     0.7007,
+     0.8453
+    ],
+    [
+     0.7093,
+     0.8453
+    ],
+    [
+     0.7163,
+     0.8498
+    ]
+   ],
+   "note": "On F6's plane, between the F5/F6 arete and F6's anchor frame; small magenta/purple ball near the floor right of the lower spike, no tag seen.",
+   "faceId": "jawa-f5"
+  }
+ ],
+ "problems": [
+  {
+   "id": "jawa-black-f5-f6",
+   "grade": "black",
+   "holdIds": [
+    "f5-black-knob",
+    "f5c-black-start"
+   ],
+   "startHoldIds": [
+    "f5-black-knob",
+    "f5c-black-start"
+   ],
+   "finishHoldId": null,
+   "note": "Split start across the arete: f5-black-knob (START tag below it) and the black hold just round the arete on F6's plane (START-style tags). No other black holds seen in the gap; rest of the line not identified. Medium confidence on the start pairing.",
+   "verified": false
+  },
+  {
+   "id": "jawa-red-f6",
+   "grade": "red",
+   "holdIds": [
+    "f5c-red-kidney"
+   ],
+   "startHoldIds": [],
+   "finishHoldId": null,
+   "note": "Fragment: adds only the red kidney. It has no FINISH tag (jawa-red-f6 already finishes on the FINISH-tagged small red crimp), so it is taken as an intermediate hand hold up-left of the red bowl start. Low confidence: it could belong to a different red line.",
+   "verified": false
+  },
+  {
+   "id": "jawa-white-f5f6",
+   "grade": "white",
+   "holdIds": [
+    "f5c-white-start"
+   ],
+   "startHoldIds": [
+    "f5c-white-start"
+   ],
+   "finishHoldId": null,
+   "note": "White (red-capped) hold with a START tag under the upper purple spike. No other white holds in the gap; the line presumably continues right onto F6 (f6-white-* holds there are unassigned). Low confidence on colour (could count as red).",
+   "verified": false
+  }
+ ],
+ "notes": "Holds in the strip between the F5/F6 arete and the left edge of F6's anchor frame (the red bowl). They are physically on F6's plane but only visible in the F5 anchor, so outlines are in F5-anchor coordinates. Not duplicated: f6-red-bowl-start and f6-grey-left-edge (the grey hold with tags on the bowl's left edge, already in jawa-f6), f5-white-arete-sliver (F5 side). No blue hold found in the gap. The three magenta/purple balls at the base carry no visible tags; they could be feet/start for jawa-purple-f5-f4 (the arete ball is closest to F5) or for jawa-purple-f6, so they are left unassigned. The red-capped white hold with a START tag sits behind the upper spike's base and is mostly hidden in the anchor; its outline covers only the visible part."
+}

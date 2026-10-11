@@ -3,9 +3,10 @@
  "holds": [
   {
    "id": "f6-blue-top-finish",
+   "faceId": "jawa-f6",
    "colour": "blue",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.4467,
      0.1825
@@ -43,9 +44,10 @@
   },
   {
    "id": "f6-red-small-finish",
+   "faceId": "jawa-f6",
    "colour": "red",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.376,
      0.212
@@ -75,9 +77,10 @@
   },
   {
    "id": "f6-yellow-top-left",
+   "faceId": "jawa-f6",
    "colour": "yellow",
    "type": "downclimb",
-   "polygon": [
+   "outline": [
     [
      0.4047,
      0.2525
@@ -118,9 +121,10 @@
   },
   {
    "id": "f6-purple-top-finish",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.504,
      0.26
@@ -158,9 +162,10 @@
   },
   {
    "id": "f6-yellow-top-mid",
+   "faceId": "jawa-f6",
    "colour": "yellow",
    "type": "downclimb",
-   "polygon": [
+   "outline": [
     [
      0.5613,
      0.2925
@@ -197,9 +202,10 @@
   },
   {
    "id": "f6-grey-volume-hex",
+   "faceId": "jawa-f6",
    "colour": "grey",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.6387,
      0.3635
@@ -244,9 +250,10 @@
   },
   {
    "id": "f6-grey-on-hex",
+   "faceId": "jawa-f6",
    "colour": "grey",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.74,
      0.331
@@ -279,9 +286,10 @@
   },
   {
    "id": "f6-white-under-hex",
+   "faceId": "jawa-f6",
    "colour": "white",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.7827,
      0.389
@@ -317,50 +325,11 @@
    ]
   },
   {
-   "id": "f6-red-big-right-top",
-   "colour": "red",
-   "type": "hold",
-   "polygon": [
-    [
-     0.9413,
-     0.26
-    ],
-    [
-     0.9533,
-     0.2485
-    ],
-    [
-     0.98,
-     0.245
-    ],
-    [
-     1.0,
-     0.245
-    ],
-    [
-     1.0,
-     0.3225
-    ],
-    [
-     0.9833,
-     0.32
-    ],
-    [
-     0.9633,
-     0.3075
-    ],
-    [
-     0.9467,
-     0.285
-    ]
-   ],
-   "note": "cut by right photo edge"
-  },
-  {
    "id": "f6-yellow-right-top",
+   "faceId": "jawa-f6",
    "colour": "yellow",
    "type": "downclimb",
-   "polygon": [
+   "outline": [
     [
      0.9107,
      0.32
@@ -397,9 +366,10 @@
   },
   {
    "id": "f6-yellow-mid",
+   "faceId": "jawa-f6",
    "colour": "yellow",
    "type": "downclimb",
-   "polygon": [
+   "outline": [
     [
      0.4667,
      0.405
@@ -436,9 +406,10 @@
   },
   {
    "id": "f6-purple-volume-under-hex",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.76,
      0.4725
@@ -475,9 +446,10 @@
   },
   {
    "id": "f6-yellow-right-mid",
+   "faceId": "jawa-f6",
    "colour": "yellow",
    "type": "downclimb",
-   "polygon": [
+   "outline": [
     [
      0.882,
      0.425
@@ -510,9 +482,10 @@
   },
   {
    "id": "f6-purple-volume-small-pyramid",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.3527,
      0.4565
@@ -541,9 +514,10 @@
   },
   {
    "id": "f6-blue-big-start",
+   "faceId": "jawa-f6",
    "colour": "blue",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.2687,
      0.536
@@ -585,9 +559,10 @@
   },
   {
    "id": "f6-purple-volume-pyramid",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.41,
      0.5135
@@ -628,9 +603,10 @@
   },
   {
    "id": "f6-purple-volume-pyramid-inset",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.45,
      0.566
@@ -655,9 +631,10 @@
   },
   {
    "id": "f6-blue-small-mid",
+   "faceId": "jawa-f6",
    "colour": "blue",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.556,
      0.534
@@ -690,9 +667,10 @@
   },
   {
    "id": "f6-blue-on-pyramid",
+   "faceId": "jawa-f6",
    "colour": "blue",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.4647,
      0.5985
@@ -717,9 +695,10 @@
   },
   {
    "id": "f6-red-on-pyramid",
+   "faceId": "jawa-f6",
    "colour": "red",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.52,
      0.584
@@ -748,9 +727,10 @@
   },
   {
    "id": "f6-yellow-low-left",
+   "faceId": "jawa-f6",
    "colour": "yellow",
    "type": "downclimb",
-   "polygon": [
+   "outline": [
     [
      0.36,
      0.6275
@@ -787,9 +767,10 @@
   },
   {
    "id": "f6-red-bowl-start",
+   "faceId": "jawa-f6",
    "colour": "red",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.0367,
      0.575
@@ -843,9 +824,10 @@
   },
   {
    "id": "f6-grey-volume-centre",
+   "faceId": "jawa-f6",
    "colour": "grey",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.58,
      0.598
@@ -890,9 +872,10 @@
   },
   {
    "id": "f6-purple-on-grey-centre",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.6573,
      0.67
@@ -925,9 +908,10 @@
   },
   {
    "id": "f6-blue-on-grey-centre",
+   "faceId": "jawa-f6",
    "colour": "blue",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.62,
      0.71
@@ -960,9 +944,10 @@
   },
   {
    "id": "f6-purple-pinch-right",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.69,
      0.69
@@ -999,9 +984,10 @@
   },
   {
    "id": "f6-purple-volume-lower-right",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.7067,
      0.73
@@ -1046,9 +1032,10 @@
   },
   {
    "id": "f6-purple-low",
+   "faceId": "jawa-f6",
    "colour": "purple",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.6533,
      0.76
@@ -1085,9 +1072,10 @@
   },
   {
    "id": "f6-grey-volume-lower",
+   "faceId": "jawa-f6",
    "colour": "grey",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.56,
      0.8
@@ -1128,9 +1116,10 @@
   },
   {
    "id": "f6-grey-volume-lower-left",
+   "faceId": "jawa-f6",
    "colour": "grey",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.3827,
      0.793
@@ -1163,9 +1152,10 @@
   },
   {
    "id": "f6-blue-on-grey-lower",
+   "faceId": "jawa-f6",
    "colour": "blue",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.4753,
      0.8
@@ -1194,9 +1184,10 @@
   },
   {
    "id": "f6-blue-big-low",
+   "faceId": "jawa-f6",
    "colour": "blue",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.3033,
      0.8675
@@ -1245,9 +1236,10 @@
   },
   {
    "id": "f6-grey-volume-right",
+   "faceId": "jawa-f6",
    "colour": "grey",
    "type": "volume",
-   "polygon": [
+   "outline": [
     [
      0.81,
      0.5625
@@ -1284,9 +1276,10 @@
   },
   {
    "id": "f6-red-right",
+   "faceId": "jawa-f6",
    "colour": "red",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.9387,
      0.58
@@ -1327,9 +1320,10 @@
   },
   {
    "id": "f6-green-right",
+   "faceId": "jawa-f6",
    "colour": "green",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.9227,
      0.5815
@@ -1358,9 +1352,10 @@
   },
   {
    "id": "f6-white-right",
+   "faceId": "jawa-f6",
    "colour": "white",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.8673,
      0.594
@@ -1393,9 +1388,10 @@
   },
   {
    "id": "f6-white-right-low",
+   "faceId": "jawa-f6",
    "colour": "white",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.92,
      0.6235
@@ -1424,9 +1420,10 @@
   },
   {
    "id": "f6-orange-right",
+   "faceId": "jawa-f6",
    "colour": "orange",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.9433,
      0.6175
@@ -1454,10 +1451,11 @@
    ]
   },
   {
-   "id": "f6-purple-left-edge",
-   "colour": "purple",
+   "id": "f6-grey-left-edge",
+   "faceId": "jawa-f6",
+   "colour": "grey",
    "type": "hold",
-   "polygon": [
+   "outline": [
     [
      0.018,
      0.56
@@ -1487,9 +1485,134 @@
      0.57
     ]
    ],
-   "note": "tag beside it; near F5 arete"
+   "note": "illegible tag(s) on its left side; at the far-left corner next to the red bowl (also visible in F5 anchor)"
+  },
+  {
+   "id": "f6-purple-volume-lower-inset",
+   "faceId": "jawa-f6",
+   "colour": "purple",
+   "type": "volume",
+   "outline": [
+    [
+     0.7673,
+     0.786
+    ],
+    [
+     0.7813,
+     0.765
+    ],
+    [
+     0.8,
+     0.74
+    ],
+    [
+     0.81,
+     0.75
+    ],
+    [
+     0.8267,
+     0.7775
+    ],
+    [
+     0.83,
+     0.7885
+    ],
+    [
+     0.7933,
+     0.79
+    ]
+   ]
+  },
+  {
+   "id": "f6-purple-start-low",
+   "faceId": "jawa-f6",
+   "colour": "purple",
+   "type": "hold",
+   "outline": [
+    [
+     0.7947,
+     0.7725
+    ],
+    [
+     0.7987,
+     0.765
+    ],
+    [
+     0.808,
+     0.7635
+    ],
+    [
+     0.8147,
+     0.7675
+    ],
+    [
+     0.8147,
+     0.775
+    ],
+    [
+     0.8053,
+     0.7785
+    ],
+    [
+     0.7973,
+     0.777
+    ]
+   ],
+   "note": "small tag on it, probably START"
   }
  ],
- "problems": [],
- "notes": ""
+ "problems": [
+  {
+   "id": "jawa-blue-f6",
+   "grade": "blue",
+   "holdIds": [
+    "f6-blue-big-start",
+    "f6-blue-small-mid",
+    "f6-blue-on-pyramid",
+    "f6-blue-top-finish",
+    "f6-blue-on-grey-centre",
+    "f6-blue-on-grey-lower",
+    "f6-blue-big-low"
+   ],
+   "startHoldIds": [
+    "f6-blue-big-start"
+   ],
+   "finishHoldId": "f6-blue-top-finish",
+   "note": "Two START tags (plus a small symbol tag) under the big blue = matched start; FINISH tag beside the top blue. Low blues (banana near floor, blue on lower grey volume, blue on centre grey volume) taken as feet of the same line. Medium confidence for start/finish, low for whether the low blues are a separate problem.",
+   "verified": false
+  },
+  {
+   "id": "jawa-red-f6",
+   "grade": "red",
+   "holdIds": [
+    "f6-red-bowl-start",
+    "f6-red-on-pyramid",
+    "f6-red-small-finish"
+   ],
+   "startHoldIds": [
+    "f6-red-bowl-start"
+   ],
+   "finishHoldId": "f6-red-small-finish",
+   "note": "START tag on lower-left of the red bowl; FINISH tag on the tiny red crimp top-left. Only one intermediate red (small hold on purple pyramid) visible, so volumes are presumably in play. Low-medium confidence. The red bowl sits at the F5-side corner; may relate to the red kidney on the panel left of the F6 frame (F5 anchor).",
+   "verified": false
+  },
+  {
+   "id": "jawa-purple-f6",
+   "grade": "purple",
+   "holdIds": [
+    "f6-purple-start-low",
+    "f6-purple-low",
+    "f6-purple-pinch-right",
+    "f6-purple-on-grey-centre",
+    "f6-purple-top-finish"
+   ],
+   "startHoldIds": [
+    "f6-purple-start-low"
+   ],
+   "finishHoldId": "f6-purple-top-finish",
+   "note": "FINISH tag left of the top purple; a small tag on the little purple hold on the lower-right purple volume read as START. Big gap between the centre grey volume and the finish, presumably via the purple pyramid / grey volumes. Low confidence. The start sits on a volume that F7's anchor frames centrally, so the line may start from or share holds with F7.",
+   "verified": false
+  }
+ ],
+ "notes": "Right boundary: F7's anchor overlaps F6's right third (hex grey volume, right grey volume with red/green/orange/white holds, lower-right purple volume). The big red hold cut by the F6 right edge (~x0.95,y0.2) is left to F7. The right grey volume cluster (f6-red-right, f6-green-right, f6-orange-right, f6-white-right, f6-white-right-low) is included because the F6 anchor frames it, but it is centred in F7 and is probably part of F7 lines, so it is left out of F6 problems; drop it if F7 also labels it. White/pale lavender holds (f6-white-under-hex, f6-white-right, f6-white-right-low) and grey holds (f6-grey-on-hex, f6-grey-left-edge, which has a tag) are unassigned: colour uncertain (white vs faded purple vs grey) and no clear tags. Left boundary: the F6 anchor starts at the red bowl; the red kidney, purple spike volumes and maroon balls between the F5 arete and the bowl are not in the F6 frame and should be labelled from F5. Third tag under the big blue is a symbol/number, unreadable."
 }

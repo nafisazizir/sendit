@@ -1,0 +1,3749 @@
+{
+  "version": 1,
+  "grades": [
+    "yellow",
+    "blue",
+    "purple",
+    "green",
+    "orange",
+    "red",
+    "black",
+    "white"
+  ],
+  "walls": [
+    {
+      "id": "jawa",
+      "name": "Jawa",
+      "faceIds": [
+        "jawa-f1",
+        "jawa-f2",
+        "jawa-f3",
+        "jawa-f4",
+        "jawa-f5",
+        "jawa-f6",
+        "jawa-f7",
+        "jawa-f8",
+        "jawa-f9"
+      ],
+      "position": {
+        "x": 17.8,
+        "y": 49,
+        "rotation": 0
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": "jawa-f1",
+      "wallId": "jawa",
+      "number": 1,
+      "angle": "slab",
+      "note": "Yellow slab with the big yellow volumes. Anchor is angled; retake.",
+      "needsRetake": true,
+      "geometry": {
+        "from": [
+          -0.526,
+          2.379
+        ],
+        "to": [
+          0.91,
+          2.379
+        ],
+        "height": 3.34,
+        "lean": 7.4,
+        "quad": [
+          [
+            0.1389,
+            0.1554
+          ],
+          [
+            0.5245,
+            0.0659
+          ],
+          [
+            0.5873,
+            0.9582
+          ],
+          [
+            0.1771,
+            0.9012
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f2",
+      "wallId": "jawa",
+      "number": 2,
+      "angle": "vertical",
+      "note": "Purple holds, red blob, grey triangle volume on the left.",
+      "needsRetake": false,
+      "geometry": {
+        "from": [
+          0.91,
+          2.379
+        ],
+        "to": [
+          2.659,
+          0.73
+        ],
+        "height": 3.34,
+        "lean": -2.7,
+        "quad": [
+          [
+            0.2095,
+            0.1632
+          ],
+          [
+            0.8852,
+            0.1682
+          ],
+          [
+            0.9665,
+            0.9394
+          ],
+          [
+            0.1343,
+            0.9361
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f3",
+      "wallId": "jawa",
+      "number": 3,
+      "angle": "slab",
+      "note": "Sparse face under the JAWA sign; blue holds, purple volumes at the base. Person in anchor; crop or retake.",
+      "needsRetake": false,
+      "geometry": {
+        "from": [
+          2.659,
+          0.73
+        ],
+        "to": [
+          2.6,
+          -1.844
+        ],
+        "height": 3.34,
+        "lean": 3.5,
+        "quad": [
+          [
+            0.071,
+            0.0649
+          ],
+          [
+            0.9073,
+            0.0893
+          ],
+          [
+            0.9499,
+            0.9243
+          ],
+          [
+            0.0184,
+            0.9415
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f4",
+      "wallId": "jawa",
+      "number": 4,
+      "angle": "vertical",
+      "note": "Orange horn, green rails, black volume, purple blocks.",
+      "needsRetake": false,
+      "geometry": {
+        "from": [
+          2.6,
+          -1.844
+        ],
+        "to": [
+          1.045,
+          -3.64
+        ],
+        "height": 3.34,
+        "lean": -1,
+        "quad": [
+          [
+            0.1044,
+            0.0591
+          ],
+          [
+            0.8989,
+            0.0344
+          ],
+          [
+            0.9708,
+            0.9795
+          ],
+          [
+            -0.0084,
+            0.943
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f5",
+      "wallId": "jawa",
+      "number": 5,
+      "angle": "arete",
+      "note": "Red holds and purple pyramids on the arete. Anchor is angled; retake.",
+      "needsRetake": true,
+      "geometry": {
+        "from": [
+          1.448,
+          -3.185
+        ],
+        "to": [
+          -0.428,
+          -4.751
+        ],
+        "height": 3.34,
+        "lean": 1,
+        "quad": [
+          [
+            0.1104,
+            0.1399
+          ],
+          [
+            0.8183,
+            -0.0461
+          ],
+          [
+            0.8646,
+            1.0293
+          ],
+          [
+            0.0503,
+            0.8793
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f6",
+      "wallId": "jawa",
+      "number": 6,
+      "angle": "overhang",
+      "note": "Red blobs and the grey volume cluster. Person in angle shot; retake.",
+      "needsRetake": true,
+      "geometry": {
+        "from": [
+          -0.428,
+          -4.751
+        ],
+        "to": [
+          -1.879,
+          -0.553
+        ],
+        "height": 3.34,
+        "lean": 1.3,
+        "quad": [
+          [
+            -0.5195,
+            -0.0754
+          ],
+          [
+            0.9729,
+            0.1741
+          ],
+          [
+            0.9901,
+            0.8654
+          ],
+          [
+            -0.6908,
+            1.0253
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f7",
+      "wallId": "jawa",
+      "number": 7,
+      "angle": "overhang",
+      "note": "Grey volume cluster, red hold, green holds, purple volumes at the base.",
+      "needsRetake": false,
+      "geometry": {
+        "from": [
+          -1.064,
+          -1.746
+        ],
+        "to": [
+          -1.471,
+          0.656
+        ],
+        "height": 3.34,
+        "lean": 14.6,
+        "quad": [
+          [
+            0.1694,
+            -0.0768
+          ],
+          [
+            0.9808,
+            0.077
+          ],
+          [
+            0.8522,
+            0.8501
+          ],
+          [
+            0.112,
+            0.9045
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f8",
+      "wallId": "jawa",
+      "number": 8,
+      "angle": "overhang",
+      "note": "Steep face under the JAWA sign: orange, white, red, grey pyramid. Person at right edge; retake.",
+      "needsRetake": true,
+      "geometry": {
+        "from": [
+          -0.993,
+          -0.741
+        ],
+        "to": [
+          -1.564,
+          1.505
+        ],
+        "height": 3.34,
+        "lean": 20.3,
+        "quad": [
+          [
+            0.0284,
+            0.0401
+          ],
+          [
+            0.8367,
+            0.1018
+          ],
+          [
+            0.7932,
+            0.9776
+          ],
+          [
+            0.0808,
+            0.9027
+          ]
+        ],
+        "source": "sfm"
+      }
+    },
+    {
+      "id": "jawa-f9",
+      "wallId": "jawa",
+      "number": 9,
+      "angle": "overhang",
+      "note": "Arete back to face 1: white holds, yellow, black. Person climbing; retake.",
+      "needsRetake": true,
+      "geometry": {
+        "from": [
+          -1.564,
+          1.505
+        ],
+        "to": [
+          -0.526,
+          2.379
+        ],
+        "height": 3.34,
+        "lean": 19.7,
+        "quad": [
+          [
+            0.3052,
+            0.1515
+          ],
+          [
+            0.7374,
+            0.1694
+          ],
+          [
+            0.6871,
+            0.9613
+          ],
+          [
+            0.2909,
+            0.9669
+          ]
+        ],
+        "source": "sfm"
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "jawa-2026-10",
+      "wallId": "jawa",
+      "dateUp": null,
+      "dateDown": null,
+      "photographedOn": "2026-10-11",
+      "photos": [
+        {
+          "id": "jawa-f1-anchor",
+          "faceId": "jawa-f1",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f1-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f1-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f1-angle-1",
+          "faceId": "jawa-f1",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f1-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f1-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f2-anchor",
+          "faceId": "jawa-f2",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f2-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f2-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f3-anchor",
+          "faceId": "jawa-f3",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f3-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f3-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f3-angle-1",
+          "faceId": "jawa-f3",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f3-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f3-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f4-anchor",
+          "faceId": "jawa-f4",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f4-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f4-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f4-angle-1",
+          "faceId": "jawa-f4",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f4-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f4-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f4-angle-2",
+          "faceId": "jawa-f4",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f4-2026-10-11-angle-02.jpg",
+          "thumb": "/photos/jawa/jawa-f4-2026-10-11-angle-02.thumb.jpg",
+          "width": 2000,
+          "height": 1500,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f5-anchor",
+          "faceId": "jawa-f5",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f5-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f5-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f5-angle-1",
+          "faceId": "jawa-f5",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f5-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f5-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f5-angle-2",
+          "faceId": "jawa-f5",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f5-2026-10-11-angle-02.jpg",
+          "thumb": "/photos/jawa/jawa-f5-2026-10-11-angle-02.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f6-anchor",
+          "faceId": "jawa-f6",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f6-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f6-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f6-angle-1",
+          "faceId": "jawa-f6",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f6-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f6-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f6-angle-2",
+          "faceId": "jawa-f6",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f6-2026-10-11-angle-02.jpg",
+          "thumb": "/photos/jawa/jawa-f6-2026-10-11-angle-02.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f7-anchor",
+          "faceId": "jawa-f7",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f7-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f7-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f7-angle-1",
+          "faceId": "jawa-f7",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f7-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f7-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f7-angle-2",
+          "faceId": "jawa-f7",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f7-2026-10-11-angle-02.jpg",
+          "thumb": "/photos/jawa/jawa-f7-2026-10-11-angle-02.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f8-anchor",
+          "faceId": "jawa-f8",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f8-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f8-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f8-angle-1",
+          "faceId": "jawa-f8",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f8-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f8-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f8-angle-2",
+          "faceId": "jawa-f8",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f8-2026-10-11-angle-02.jpg",
+          "thumb": "/photos/jawa/jawa-f8-2026-10-11-angle-02.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f8-angle-3",
+          "faceId": "jawa-f8",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f8-2026-10-11-angle-03.jpg",
+          "thumb": "/photos/jawa/jawa-f8-2026-10-11-angle-03.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f8-angle-4",
+          "faceId": "jawa-f8",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f8-2026-10-11-angle-04.jpg",
+          "thumb": "/photos/jawa/jawa-f8-2026-10-11-angle-04.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f9-anchor",
+          "faceId": "jawa-f9",
+          "role": "anchor",
+          "src": "/photos/jawa/jawa-f9-2026-10-11-anchor.jpg",
+          "thumb": "/photos/jawa/jawa-f9-2026-10-11-anchor.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f9-angle-1",
+          "faceId": "jawa-f9",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f9-2026-10-11-angle-01.jpg",
+          "thumb": "/photos/jawa/jawa-f9-2026-10-11-angle-01.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        },
+        {
+          "id": "jawa-f9-angle-2",
+          "faceId": "jawa-f9",
+          "role": "angle",
+          "src": "/photos/jawa/jawa-f9-2026-10-11-angle-02.jpg",
+          "thumb": "/photos/jawa/jawa-f9-2026-10-11-angle-02.thumb.jpg",
+          "width": 2000,
+          "height": 2666,
+          "shotOn": "2026-10-11"
+        }
+      ],
+      "holds": [
+        {
+          "id": "f3-blue-top",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.8567,
+              0.32
+            ],
+            [
+              0.88,
+              0.3225
+            ],
+            [
+              0.8867,
+              0.345
+            ],
+            [
+              0.8667,
+              0.35
+            ],
+            [
+              0.8533,
+              0.34
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-mid",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.8047,
+              0.385
+            ],
+            [
+              0.8004,
+              0.3928
+            ],
+            [
+              0.79,
+              0.396
+            ],
+            [
+              0.7796,
+              0.3928
+            ],
+            [
+              0.7753,
+              0.385
+            ],
+            [
+              0.7796,
+              0.3772
+            ],
+            [
+              0.79,
+              0.374
+            ],
+            [
+              0.8004,
+              0.3772
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-low",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.6767,
+              0.5175
+            ],
+            [
+              0.7,
+              0.52
+            ],
+            [
+              0.7033,
+              0.54
+            ],
+            [
+              0.6833,
+              0.545
+            ],
+            [
+              0.6733,
+              0.5325
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-vol-foot-1",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.8067,
+              0.7925
+            ],
+            [
+              0.8028,
+              0.7996
+            ],
+            [
+              0.7933,
+              0.8025
+            ],
+            [
+              0.7839,
+              0.7996
+            ],
+            [
+              0.78,
+              0.7925
+            ],
+            [
+              0.7839,
+              0.7854
+            ],
+            [
+              0.7933,
+              0.7825
+            ],
+            [
+              0.8028,
+              0.7854
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-vol-foot-2",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.8573,
+              0.7525
+            ],
+            [
+              0.8542,
+              0.7582
+            ],
+            [
+              0.8467,
+              0.7605
+            ],
+            [
+              0.8391,
+              0.7582
+            ],
+            [
+              0.836,
+              0.7525
+            ],
+            [
+              0.8391,
+              0.7468
+            ],
+            [
+              0.8467,
+              0.7445
+            ],
+            [
+              0.8542,
+              0.7468
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-left",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.27,
+              0.4575
+            ],
+            [
+              0.2933,
+              0.4625
+            ],
+            [
+              0.2933,
+              0.5
+            ],
+            [
+              0.2733,
+              0.5125
+            ],
+            [
+              0.2567,
+              0.5
+            ],
+            [
+              0.26,
+              0.47
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-left-foot-1",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.1953,
+              0.835
+            ],
+            [
+              0.1918,
+              0.8414
+            ],
+            [
+              0.1833,
+              0.844
+            ],
+            [
+              0.1748,
+              0.8414
+            ],
+            [
+              0.1713,
+              0.835
+            ],
+            [
+              0.1748,
+              0.8286
+            ],
+            [
+              0.1833,
+              0.826
+            ],
+            [
+              0.1918,
+              0.8286
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-left-foot-2",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.5373,
+              0.8325
+            ],
+            [
+              0.5342,
+              0.8382
+            ],
+            [
+              0.5267,
+              0.8405
+            ],
+            [
+              0.5191,
+              0.8382
+            ],
+            [
+              0.516,
+              0.8325
+            ],
+            [
+              0.5191,
+              0.8268
+            ],
+            [
+              0.5267,
+              0.8245
+            ],
+            [
+              0.5342,
+              0.8268
+            ]
+          ]
+        },
+        {
+          "id": "f3-blue-left-foot-3",
+          "faceId": "jawa-f3",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0.5527,
+              0.8325
+            ],
+            [
+              0.5499,
+              0.8374
+            ],
+            [
+              0.5433,
+              0.8395
+            ],
+            [
+              0.5367,
+              0.8374
+            ],
+            [
+              0.534,
+              0.8325
+            ],
+            [
+              0.5367,
+              0.8276
+            ],
+            [
+              0.5433,
+              0.8255
+            ],
+            [
+              0.5499,
+              0.8276
+            ]
+          ]
+        },
+        {
+          "id": "f3-white",
+          "faceId": "jawa-f3",
+          "colour": "white",
+          "type": "hold",
+          "outline": [
+            [
+              0.31,
+              0.435
+            ],
+            [
+              0.3467,
+              0.4325
+            ],
+            [
+              0.3633,
+              0.4525
+            ],
+            [
+              0.3533,
+              0.47
+            ],
+            [
+              0.3267,
+              0.4725
+            ],
+            [
+              0.31,
+              0.46
+            ]
+          ],
+          "note": "Tag beside it; read at the wall."
+        },
+        {
+          "id": "f3-green-crimp",
+          "faceId": "jawa-f3",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.3753,
+              0.5375
+            ],
+            [
+              0.3718,
+              0.5467
+            ],
+            [
+              0.3633,
+              0.5505
+            ],
+            [
+              0.3548,
+              0.5467
+            ],
+            [
+              0.3513,
+              0.5375
+            ],
+            [
+              0.3548,
+              0.5283
+            ],
+            [
+              0.3633,
+              0.5245
+            ],
+            [
+              0.3718,
+              0.5283
+            ]
+          ],
+          "note": "Tag below it; read at the wall."
+        },
+        {
+          "id": "f3-black-small",
+          "faceId": "jawa-f3",
+          "colour": "black",
+          "type": "hold",
+          "outline": [
+            [
+              0.936,
+              0.345
+            ],
+            [
+              0.9333,
+              0.3499
+            ],
+            [
+              0.9267,
+              0.352
+            ],
+            [
+              0.9201,
+              0.3499
+            ],
+            [
+              0.9173,
+              0.345
+            ],
+            [
+              0.9201,
+              0.3401
+            ],
+            [
+              0.9267,
+              0.338
+            ],
+            [
+              0.9333,
+              0.3401
+            ]
+          ]
+        },
+        {
+          "id": "f3-orange-top",
+          "faceId": "jawa-f3",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.93,
+              0.385
+            ],
+            [
+              0.9667,
+              0.3875
+            ],
+            [
+              0.97,
+              0.425
+            ],
+            [
+              0.96,
+              0.46
+            ],
+            [
+              0.93,
+              0.4675
+            ],
+            [
+              0.8933,
+              0.45
+            ],
+            [
+              0.8967,
+              0.42
+            ]
+          ]
+        },
+        {
+          "id": "f3-orange-edge",
+          "faceId": "jawa-f3",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.9987,
+              0.64
+            ],
+            [
+              0.9932,
+              0.6534
+            ],
+            [
+              0.98,
+              0.659
+            ],
+            [
+              0.9668,
+              0.6534
+            ],
+            [
+              0.9613,
+              0.64
+            ],
+            [
+              0.9668,
+              0.6266
+            ],
+            [
+              0.98,
+              0.621
+            ],
+            [
+              0.9932,
+              0.6266
+            ]
+          ]
+        },
+        {
+          "id": "f3-orange-low",
+          "faceId": "jawa-f3",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.8167,
+              0.6775
+            ],
+            [
+              0.8933,
+              0.6725
+            ],
+            [
+              0.9033,
+              0.7
+            ],
+            [
+              0.8867,
+              0.715
+            ],
+            [
+              0.8267,
+              0.715
+            ],
+            [
+              0.81,
+              0.6975
+            ]
+          ]
+        },
+        {
+          "id": "f3-yellow-1",
+          "faceId": "jawa-f3",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.994,
+              0.43
+            ],
+            [
+              0.9889,
+              0.4392
+            ],
+            [
+              0.9767,
+              0.443
+            ],
+            [
+              0.9644,
+              0.4392
+            ],
+            [
+              0.9593,
+              0.43
+            ],
+            [
+              0.9644,
+              0.4208
+            ],
+            [
+              0.9767,
+              0.417
+            ],
+            [
+              0.9889,
+              0.4208
+            ]
+          ]
+        },
+        {
+          "id": "f3-vol-purple-left",
+          "faceId": "jawa-f3",
+          "colour": "purple",
+          "type": "volume",
+          "outline": [
+            [
+              0.1033,
+              0.7475
+            ],
+            [
+              0.3733,
+              0.8075
+            ],
+            [
+              0.15,
+              0.9
+            ]
+          ]
+        },
+        {
+          "id": "f3-vol-purple-right",
+          "faceId": "jawa-f3",
+          "colour": "purple",
+          "type": "volume",
+          "outline": [
+            [
+              0.3367,
+              0.845
+            ],
+            [
+              0.8967,
+              0.715
+            ],
+            [
+              0.8267,
+              0.925
+            ]
+          ]
+        },
+        {
+          "id": "f4-blue-edge",
+          "faceId": "jawa-f4",
+          "colour": "blue",
+          "type": "hold",
+          "outline": [
+            [
+              0,
+              0.2875
+            ],
+            [
+              0.0233,
+              0.285
+            ],
+            [
+              0.0433,
+              0.295
+            ],
+            [
+              0.0333,
+              0.3075
+            ],
+            [
+              0.0067,
+              0.31
+            ],
+            [
+              0,
+              0.305
+            ]
+          ],
+          "note": "On the left edge, beside the arete to face 3."
+        },
+        {
+          "id": "f4-black",
+          "faceId": "jawa-f4",
+          "colour": "black",
+          "type": "hold",
+          "outline": [
+            [
+              0.1433,
+              0.2725
+            ],
+            [
+              0.1767,
+              0.27
+            ],
+            [
+              0.19,
+              0.28
+            ],
+            [
+              0.1833,
+              0.2925
+            ],
+            [
+              0.1533,
+              0.295
+            ],
+            [
+              0.14,
+              0.285
+            ]
+          ],
+          "note": "FINISH tag beside it (readable when zoomed in)."
+        },
+        {
+          "id": "f4-orange-small",
+          "faceId": "jawa-f4",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.2033,
+              0.265
+            ],
+            [
+              0.23,
+              0.2625
+            ],
+            [
+              0.2367,
+              0.28
+            ],
+            [
+              0.2267,
+              0.295
+            ],
+            [
+              0.2067,
+              0.295
+            ],
+            [
+              0.2,
+              0.28
+            ]
+          ],
+          "note": "FINISH tag below it (readable when zoomed in)."
+        },
+        {
+          "id": "f4-orange-horn",
+          "faceId": "jawa-f4",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.25,
+              0.305
+            ],
+            [
+              0.2,
+              0.314
+            ],
+            [
+              0.1467,
+              0.325
+            ],
+            [
+              0.1,
+              0.345
+            ],
+            [
+              0.0633,
+              0.37
+            ],
+            [
+              0.0367,
+              0.4
+            ],
+            [
+              0.0233,
+              0.4275
+            ],
+            [
+              0.03,
+              0.4375
+            ],
+            [
+              0.0567,
+              0.4325
+            ],
+            [
+              0.0933,
+              0.4125
+            ],
+            [
+              0.14,
+              0.3925
+            ],
+            [
+              0.1933,
+              0.375
+            ],
+            [
+              0.2267,
+              0.365
+            ],
+            [
+              0.25,
+              0.3525
+            ]
+          ]
+        },
+        {
+          "id": "f4-orange-low",
+          "faceId": "jawa-f4",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.1233,
+              0.6075
+            ],
+            [
+              0.1867,
+              0.6025
+            ],
+            [
+              0.22,
+              0.615
+            ],
+            [
+              0.2233,
+              0.65
+            ],
+            [
+              0.2067,
+              0.6675
+            ],
+            [
+              0.1533,
+              0.67
+            ],
+            [
+              0.12,
+              0.655
+            ],
+            [
+              0.1133,
+              0.6275
+            ]
+          ]
+        },
+        {
+          "id": "f4-yellow-1",
+          "faceId": "jawa-f4",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.3013,
+              0.3625
+            ],
+            [
+              0.2931,
+              0.3773
+            ],
+            [
+              0.2733,
+              0.3835
+            ],
+            [
+              0.2535,
+              0.3773
+            ],
+            [
+              0.2453,
+              0.3625
+            ],
+            [
+              0.2535,
+              0.3477
+            ],
+            [
+              0.2733,
+              0.3415
+            ],
+            [
+              0.2931,
+              0.3477
+            ]
+          ]
+        },
+        {
+          "id": "f4-yellow-2",
+          "faceId": "jawa-f4",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.8513,
+              0.2225
+            ],
+            [
+              0.8431,
+              0.2373
+            ],
+            [
+              0.8233,
+              0.2435
+            ],
+            [
+              0.8035,
+              0.2373
+            ],
+            [
+              0.7953,
+              0.2225
+            ],
+            [
+              0.8035,
+              0.2077
+            ],
+            [
+              0.8233,
+              0.2015
+            ],
+            [
+              0.8431,
+              0.2077
+            ]
+          ]
+        },
+        {
+          "id": "f4-yellow-3",
+          "faceId": "jawa-f4",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.928,
+              0.2725
+            ],
+            [
+              0.9198,
+              0.2873
+            ],
+            [
+              0.9,
+              0.2935
+            ],
+            [
+              0.8802,
+              0.2873
+            ],
+            [
+              0.872,
+              0.2725
+            ],
+            [
+              0.8802,
+              0.2577
+            ],
+            [
+              0.9,
+              0.2515
+            ],
+            [
+              0.9198,
+              0.2577
+            ]
+          ]
+        },
+        {
+          "id": "f4-green-crimp-1",
+          "faceId": "jawa-f4",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.3593,
+              0.355
+            ],
+            [
+              0.3566,
+              0.3599
+            ],
+            [
+              0.35,
+              0.362
+            ],
+            [
+              0.3434,
+              0.3599
+            ],
+            [
+              0.3407,
+              0.355
+            ],
+            [
+              0.3434,
+              0.3501
+            ],
+            [
+              0.35,
+              0.348
+            ],
+            [
+              0.3566,
+              0.3501
+            ]
+          ]
+        },
+        {
+          "id": "f4-green-crimp-top",
+          "faceId": "jawa-f4",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.702,
+              0.2275
+            ],
+            [
+              0.6995,
+              0.2321
+            ],
+            [
+              0.6933,
+              0.234
+            ],
+            [
+              0.6872,
+              0.2321
+            ],
+            [
+              0.6847,
+              0.2275
+            ],
+            [
+              0.6872,
+              0.2229
+            ],
+            [
+              0.6933,
+              0.221
+            ],
+            [
+              0.6995,
+              0.2229
+            ]
+          ],
+          "note": "FINISH tag beside it."
+        },
+        {
+          "id": "f4-green-rail-1",
+          "faceId": "jawa-f4",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.3433,
+              0.6225
+            ],
+            [
+              0.3733,
+              0.616
+            ],
+            [
+              0.5267,
+              0.629
+            ],
+            [
+              0.5367,
+              0.645
+            ],
+            [
+              0.5133,
+              0.65
+            ],
+            [
+              0.3533,
+              0.6325
+            ]
+          ]
+        },
+        {
+          "id": "f4-green-rail-2",
+          "faceId": "jawa-f4",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.5333,
+              0.661
+            ],
+            [
+              0.7467,
+              0.6735
+            ],
+            [
+              0.75,
+              0.6875
+            ],
+            [
+              0.5367,
+              0.676
+            ]
+          ],
+          "note": "START tag at its right end."
+        },
+        {
+          "id": "f4-purple-edge",
+          "faceId": "jawa-f4",
+          "colour": "purple",
+          "type": "hold",
+          "outline": [
+            [
+              0.9533,
+              0.185
+            ],
+            [
+              0.9767,
+              0.1825
+            ],
+            [
+              0.99,
+              0.2
+            ],
+            [
+              0.9867,
+              0.2225
+            ],
+            [
+              0.9633,
+              0.2275
+            ],
+            [
+              0.95,
+              0.21
+            ]
+          ],
+          "note": "FINISH tag beside it, at the right edge next to face 5."
+        },
+        {
+          "id": "f4-purple-small",
+          "faceId": "jawa-f4",
+          "colour": "purple",
+          "type": "hold",
+          "outline": [
+            [
+              0.9273,
+              0.565
+            ],
+            [
+              0.9242,
+              0.5707
+            ],
+            [
+              0.9167,
+              0.573
+            ],
+            [
+              0.9091,
+              0.5707
+            ],
+            [
+              0.906,
+              0.565
+            ],
+            [
+              0.9091,
+              0.5593
+            ],
+            [
+              0.9167,
+              0.557
+            ],
+            [
+              0.9242,
+              0.5593
+            ]
+          ]
+        },
+        {
+          "id": "f4-vol-black",
+          "faceId": "jawa-f4",
+          "colour": "black",
+          "type": "volume",
+          "outline": [
+            [
+              0.2333,
+              0.689
+            ],
+            [
+              0.4433,
+              0.714
+            ],
+            [
+              0.4453,
+              0.775
+            ],
+            [
+              0.2333,
+              0.7625
+            ]
+          ]
+        },
+        {
+          "id": "f4-vol-purple-a",
+          "faceId": "jawa-f4",
+          "colour": "purple",
+          "type": "volume",
+          "outline": [
+            [
+              0.5567,
+              0.7325
+            ],
+            [
+              0.7667,
+              0.7525
+            ],
+            [
+              0.7733,
+              0.83
+            ],
+            [
+              0.6667,
+              0.835
+            ],
+            [
+              0.5667,
+              0.81
+            ]
+          ]
+        },
+        {
+          "id": "f4-vol-purple-b",
+          "faceId": "jawa-f4",
+          "colour": "purple",
+          "type": "volume",
+          "outline": [
+            [
+              0.5,
+              0.8025
+            ],
+            [
+              0.6933,
+              0.8275
+            ],
+            [
+              0.7067,
+              0.915
+            ],
+            [
+              0.5533,
+              0.91
+            ],
+            [
+              0.48,
+              0.885
+            ]
+          ]
+        },
+        {
+          "id": "f4-vol-purple-c",
+          "faceId": "jawa-f4",
+          "colour": "purple",
+          "type": "volume",
+          "outline": [
+            [
+              0.71,
+              0.84
+            ],
+            [
+              0.9333,
+              0.85
+            ],
+            [
+              0.93,
+              0.915
+            ],
+            [
+              0.6967,
+              0.935
+            ]
+          ]
+        },
+        {
+          "id": "f8-red-top",
+          "faceId": "jawa-f8",
+          "colour": "red",
+          "type": "hold",
+          "outline": [
+            [
+              0.16,
+              0.24
+            ],
+            [
+              0.22,
+              0.235
+            ],
+            [
+              0.28,
+              0.245
+            ],
+            [
+              0.2933,
+              0.27
+            ],
+            [
+              0.2867,
+              0.3
+            ],
+            [
+              0.2533,
+              0.32
+            ],
+            [
+              0.2,
+              0.325
+            ],
+            [
+              0.16,
+              0.31
+            ],
+            [
+              0.1433,
+              0.28
+            ]
+          ],
+          "note": "Tag below it."
+        },
+        {
+          "id": "f8-red-small-1",
+          "faceId": "jawa-f8",
+          "colour": "red",
+          "type": "hold",
+          "outline": [
+            [
+              0.3373,
+              0.33
+            ],
+            [
+              0.3342,
+              0.3357
+            ],
+            [
+              0.3267,
+              0.338
+            ],
+            [
+              0.3191,
+              0.3357
+            ],
+            [
+              0.316,
+              0.33
+            ],
+            [
+              0.3191,
+              0.3243
+            ],
+            [
+              0.3267,
+              0.322
+            ],
+            [
+              0.3342,
+              0.3243
+            ]
+          ]
+        },
+        {
+          "id": "f8-red-small-2",
+          "faceId": "jawa-f8",
+          "colour": "red",
+          "type": "hold",
+          "outline": [
+            [
+              0.3707,
+              0.3125
+            ],
+            [
+              0.3675,
+              0.3182
+            ],
+            [
+              0.36,
+              0.3205
+            ],
+            [
+              0.3525,
+              0.3182
+            ],
+            [
+              0.3493,
+              0.3125
+            ],
+            [
+              0.3525,
+              0.3068
+            ],
+            [
+              0.36,
+              0.3045
+            ],
+            [
+              0.3675,
+              0.3068
+            ]
+          ]
+        },
+        {
+          "id": "f8-red-on-block",
+          "faceId": "jawa-f8",
+          "colour": "red",
+          "type": "hold",
+          "outline": [
+            [
+              0.23,
+              0.62
+            ],
+            [
+              0.28,
+              0.615
+            ],
+            [
+              0.3067,
+              0.645
+            ],
+            [
+              0.2933,
+              0.68
+            ],
+            [
+              0.2467,
+              0.685
+            ],
+            [
+              0.2233,
+              0.655
+            ]
+          ]
+        },
+        {
+          "id": "f8-red-right",
+          "faceId": "jawa-f8",
+          "colour": "red",
+          "type": "hold",
+          "outline": [
+            [
+              0.7333,
+              0.645
+            ],
+            [
+              0.8,
+              0.635
+            ],
+            [
+              0.8467,
+              0.655
+            ],
+            [
+              0.8433,
+              0.69
+            ],
+            [
+              0.8,
+              0.715
+            ],
+            [
+              0.7467,
+              0.705
+            ],
+            [
+              0.7233,
+              0.675
+            ]
+          ],
+          "note": "Tags beside it."
+        },
+        {
+          "id": "f8-red-on-pyramid",
+          "faceId": "jawa-f8",
+          "colour": "red",
+          "type": "hold",
+          "outline": [
+            [
+              0.586,
+              0.47
+            ],
+            [
+              0.5833,
+              0.4771
+            ],
+            [
+              0.5767,
+              0.48
+            ],
+            [
+              0.5701,
+              0.4771
+            ],
+            [
+              0.5673,
+              0.47
+            ],
+            [
+              0.5701,
+              0.4629
+            ],
+            [
+              0.5767,
+              0.46
+            ],
+            [
+              0.5833,
+              0.4629
+            ]
+          ],
+          "note": "Looks pink: faded red."
+        },
+        {
+          "id": "f8-green-top",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.3933,
+              0.1975
+            ],
+            [
+              0.4333,
+              0.19
+            ],
+            [
+              0.46,
+              0.21
+            ],
+            [
+              0.4533,
+              0.2275
+            ],
+            [
+              0.4133,
+              0.23
+            ],
+            [
+              0.39,
+              0.215
+            ]
+          ],
+          "note": "Tag at its left."
+        },
+        {
+          "id": "f8-green-crimp-1",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.282,
+              0.31
+            ],
+            [
+              0.2795,
+              0.3146
+            ],
+            [
+              0.2733,
+              0.3165
+            ],
+            [
+              0.2672,
+              0.3146
+            ],
+            [
+              0.2647,
+              0.31
+            ],
+            [
+              0.2672,
+              0.3054
+            ],
+            [
+              0.2733,
+              0.3035
+            ],
+            [
+              0.2795,
+              0.3054
+            ]
+          ]
+        },
+        {
+          "id": "f8-green-sloper",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.5133,
+              0.325
+            ],
+            [
+              0.5467,
+              0.3175
+            ],
+            [
+              0.5733,
+              0.34
+            ],
+            [
+              0.58,
+              0.38
+            ],
+            [
+              0.5667,
+              0.4
+            ],
+            [
+              0.5333,
+              0.395
+            ],
+            [
+              0.51,
+              0.36
+            ]
+          ]
+        },
+        {
+          "id": "f8-green-ring",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.5267,
+              0.525
+            ],
+            [
+              0.5867,
+              0.5175
+            ],
+            [
+              0.6667,
+              0.53
+            ],
+            [
+              0.6733,
+              0.56
+            ],
+            [
+              0.6333,
+              0.5675
+            ],
+            [
+              0.5467,
+              0.56
+            ],
+            [
+              0.5133,
+              0.54
+            ]
+          ],
+          "note": "Sits on the grey pyramid."
+        },
+        {
+          "id": "f8-green-crimp-pyramid",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.556,
+              0.505
+            ],
+            [
+              0.5533,
+              0.5099
+            ],
+            [
+              0.5467,
+              0.512
+            ],
+            [
+              0.5401,
+              0.5099
+            ],
+            [
+              0.5373,
+              0.505
+            ],
+            [
+              0.5401,
+              0.5001
+            ],
+            [
+              0.5467,
+              0.498
+            ],
+            [
+              0.5533,
+              0.5001
+            ]
+          ]
+        },
+        {
+          "id": "f8-green-small-block",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.212,
+              0.6525
+            ],
+            [
+              0.2085,
+              0.6589
+            ],
+            [
+              0.2,
+              0.6615
+            ],
+            [
+              0.1915,
+              0.6589
+            ],
+            [
+              0.188,
+              0.6525
+            ],
+            [
+              0.1915,
+              0.6461
+            ],
+            [
+              0.2,
+              0.6435
+            ],
+            [
+              0.2085,
+              0.6461
+            ]
+          ]
+        },
+        {
+          "id": "f8-green-a",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.65,
+              0.675
+            ],
+            [
+              0.7067,
+              0.67
+            ],
+            [
+              0.7267,
+              0.7
+            ],
+            [
+              0.7133,
+              0.725
+            ],
+            [
+              0.6667,
+              0.73
+            ],
+            [
+              0.64,
+              0.7
+            ]
+          ],
+          "note": "START tag beside it."
+        },
+        {
+          "id": "f8-green-b",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.5867,
+              0.715
+            ],
+            [
+              0.6333,
+              0.71
+            ],
+            [
+              0.6433,
+              0.735
+            ],
+            [
+              0.62,
+              0.7475
+            ],
+            [
+              0.5867,
+              0.74
+            ]
+          ]
+        },
+        {
+          "id": "f8-green-small-right",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.8347,
+              0.6
+            ],
+            [
+              0.8323,
+              0.6042
+            ],
+            [
+              0.8267,
+              0.606
+            ],
+            [
+              0.821,
+              0.6042
+            ],
+            [
+              0.8187,
+              0.6
+            ],
+            [
+              0.821,
+              0.5958
+            ],
+            [
+              0.8267,
+              0.594
+            ],
+            [
+              0.8323,
+              0.5958
+            ]
+          ]
+        },
+        {
+          "id": "f8-green-low-1",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.762,
+              0.78
+            ],
+            [
+              0.7595,
+              0.7846
+            ],
+            [
+              0.7533,
+              0.7865
+            ],
+            [
+              0.7472,
+              0.7846
+            ],
+            [
+              0.7447,
+              0.78
+            ],
+            [
+              0.7472,
+              0.7754
+            ],
+            [
+              0.7533,
+              0.7735
+            ],
+            [
+              0.7595,
+              0.7754
+            ]
+          ]
+        },
+        {
+          "id": "f8-green-low-2",
+          "faceId": "jawa-f8",
+          "colour": "green",
+          "type": "hold",
+          "outline": [
+            [
+              0.7053,
+              0.8675
+            ],
+            [
+              0.7028,
+              0.8721
+            ],
+            [
+              0.6967,
+              0.874
+            ],
+            [
+              0.6905,
+              0.8721
+            ],
+            [
+              0.688,
+              0.8675
+            ],
+            [
+              0.6905,
+              0.8629
+            ],
+            [
+              0.6967,
+              0.861
+            ],
+            [
+              0.7028,
+              0.8629
+            ]
+          ]
+        },
+        {
+          "id": "f8-orange-top",
+          "faceId": "jawa-f8",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.64,
+              0.2125
+            ],
+            [
+              0.6933,
+              0.205
+            ],
+            [
+              0.72,
+              0.22
+            ],
+            [
+              0.7133,
+              0.26
+            ],
+            [
+              0.6867,
+              0.28
+            ],
+            [
+              0.6333,
+              0.2875
+            ],
+            [
+              0.62,
+              0.255
+            ]
+          ],
+          "note": "Tag at its lower left."
+        },
+        {
+          "id": "f8-orange-big",
+          "faceId": "jawa-f8",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.6833,
+              0.345
+            ],
+            [
+              0.72,
+              0.34
+            ],
+            [
+              0.7533,
+              0.37
+            ],
+            [
+              0.7933,
+              0.42
+            ],
+            [
+              0.7867,
+              0.45
+            ],
+            [
+              0.7467,
+              0.445
+            ],
+            [
+              0.7,
+              0.41
+            ],
+            [
+              0.6767,
+              0.375
+            ]
+          ]
+        },
+        {
+          "id": "f8-orange-ring",
+          "faceId": "jawa-f8",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.82,
+              0.4
+            ],
+            [
+              0.88,
+              0.395
+            ],
+            [
+              0.92,
+              0.425
+            ],
+            [
+              0.9167,
+              0.48
+            ],
+            [
+              0.8867,
+              0.515
+            ],
+            [
+              0.8267,
+              0.51
+            ],
+            [
+              0.8,
+              0.465
+            ],
+            [
+              0.7967,
+              0.42
+            ]
+          ]
+        },
+        {
+          "id": "f8-orange-on-pyramid",
+          "faceId": "jawa-f8",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.4367,
+              0.56
+            ],
+            [
+              0.48,
+              0.555
+            ],
+            [
+              0.4967,
+              0.58
+            ],
+            [
+              0.4767,
+              0.59
+            ],
+            [
+              0.44,
+              0.5875
+            ]
+          ],
+          "note": "Tag below it."
+        },
+        {
+          "id": "f8-orange-small-right",
+          "faceId": "jawa-f8",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.7693,
+              0.55
+            ],
+            [
+              0.7666,
+              0.5549
+            ],
+            [
+              0.76,
+              0.557
+            ],
+            [
+              0.7534,
+              0.5549
+            ],
+            [
+              0.7507,
+              0.55
+            ],
+            [
+              0.7534,
+              0.5451
+            ],
+            [
+              0.76,
+              0.543
+            ],
+            [
+              0.7666,
+              0.5451
+            ]
+          ]
+        },
+        {
+          "id": "f8-orange-small-block",
+          "faceId": "jawa-f8",
+          "colour": "orange",
+          "type": "hold",
+          "outline": [
+            [
+              0.304,
+              0.6975
+            ],
+            [
+              0.3009,
+              0.7032
+            ],
+            [
+              0.2933,
+              0.7055
+            ],
+            [
+              0.2858,
+              0.7032
+            ],
+            [
+              0.2827,
+              0.6975
+            ],
+            [
+              0.2858,
+              0.6918
+            ],
+            [
+              0.2933,
+              0.6895
+            ],
+            [
+              0.3009,
+              0.6918
+            ]
+          ]
+        },
+        {
+          "id": "f8-white-top",
+          "faceId": "jawa-f8",
+          "colour": "white",
+          "type": "hold",
+          "outline": [
+            [
+              0.92,
+              0.26
+            ],
+            [
+              0.9733,
+              0.255
+            ],
+            [
+              0.99,
+              0.28
+            ],
+            [
+              0.99,
+              0.38
+            ],
+            [
+              0.9733,
+              0.415
+            ],
+            [
+              0.9133,
+              0.42
+            ],
+            [
+              0.8933,
+              0.35
+            ],
+            [
+              0.9,
+              0.3
+            ]
+          ]
+        },
+        {
+          "id": "f8-white-mid",
+          "faceId": "jawa-f8",
+          "colour": "white",
+          "type": "hold",
+          "outline": [
+            [
+              0.9467,
+              0.535
+            ],
+            [
+              0.98,
+              0.55
+            ],
+            [
+              0.9733,
+              0.59
+            ],
+            [
+              0.9333,
+              0.62
+            ],
+            [
+              0.8867,
+              0.625
+            ],
+            [
+              0.8467,
+              0.62
+            ],
+            [
+              0.8667,
+              0.59
+            ],
+            [
+              0.9133,
+              0.56
+            ]
+          ]
+        },
+        {
+          "id": "f8-white-small-block",
+          "faceId": "jawa-f8",
+          "colour": "white",
+          "type": "hold",
+          "outline": [
+            [
+              0.2627,
+              0.705
+            ],
+            [
+              0.2599,
+              0.7099
+            ],
+            [
+              0.2533,
+              0.712
+            ],
+            [
+              0.2467,
+              0.7099
+            ],
+            [
+              0.244,
+              0.705
+            ],
+            [
+              0.2467,
+              0.7001
+            ],
+            [
+              0.2533,
+              0.698
+            ],
+            [
+              0.2599,
+              0.7001
+            ]
+          ]
+        },
+        {
+          "id": "f8-black-right",
+          "faceId": "jawa-f8",
+          "colour": "black",
+          "type": "hold",
+          "outline": [
+            [
+              0.9413,
+              0.5025
+            ],
+            [
+              0.937,
+              0.5089
+            ],
+            [
+              0.9267,
+              0.5115
+            ],
+            [
+              0.9163,
+              0.5089
+            ],
+            [
+              0.912,
+              0.5025
+            ],
+            [
+              0.9163,
+              0.4961
+            ],
+            [
+              0.9267,
+              0.4935
+            ],
+            [
+              0.937,
+              0.4961
+            ]
+          ]
+        },
+        {
+          "id": "f8-black-low",
+          "faceId": "jawa-f8",
+          "colour": "black",
+          "type": "hold",
+          "outline": [
+            [
+              0.876,
+              0.875
+            ],
+            [
+              0.8733,
+              0.8799
+            ],
+            [
+              0.8667,
+              0.882
+            ],
+            [
+              0.8601,
+              0.8799
+            ],
+            [
+              0.8573,
+              0.875
+            ],
+            [
+              0.8601,
+              0.8701
+            ],
+            [
+              0.8667,
+              0.868
+            ],
+            [
+              0.8733,
+              0.8701
+            ]
+          ]
+        },
+        {
+          "id": "f8-yellow-1",
+          "faceId": "jawa-f8",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.1467,
+              0.3325
+            ],
+            [
+              0.1389,
+              0.3466
+            ],
+            [
+              0.12,
+              0.3525
+            ],
+            [
+              0.1011,
+              0.3466
+            ],
+            [
+              0.0933,
+              0.3325
+            ],
+            [
+              0.1011,
+              0.3184
+            ],
+            [
+              0.12,
+              0.3125
+            ],
+            [
+              0.1389,
+              0.3184
+            ]
+          ]
+        },
+        {
+          "id": "f8-yellow-2",
+          "faceId": "jawa-f8",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.4547,
+              0.255
+            ],
+            [
+              0.4465,
+              0.2698
+            ],
+            [
+              0.4267,
+              0.276
+            ],
+            [
+              0.4069,
+              0.2698
+            ],
+            [
+              0.3987,
+              0.255
+            ],
+            [
+              0.4069,
+              0.2402
+            ],
+            [
+              0.4267,
+              0.234
+            ],
+            [
+              0.4465,
+              0.2402
+            ]
+          ]
+        },
+        {
+          "id": "f8-yellow-3",
+          "faceId": "jawa-f8",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.4813,
+              0.3625
+            ],
+            [
+              0.4731,
+              0.3773
+            ],
+            [
+              0.4533,
+              0.3835
+            ],
+            [
+              0.4335,
+              0.3773
+            ],
+            [
+              0.4253,
+              0.3625
+            ],
+            [
+              0.4335,
+              0.3477
+            ],
+            [
+              0.4533,
+              0.3415
+            ],
+            [
+              0.4731,
+              0.3477
+            ]
+          ]
+        },
+        {
+          "id": "f8-yellow-4",
+          "faceId": "jawa-f8",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.7613,
+              0.31
+            ],
+            [
+              0.7531,
+              0.3248
+            ],
+            [
+              0.7333,
+              0.331
+            ],
+            [
+              0.7135,
+              0.3248
+            ],
+            [
+              0.7053,
+              0.31
+            ],
+            [
+              0.7135,
+              0.2952
+            ],
+            [
+              0.7333,
+              0.289
+            ],
+            [
+              0.7531,
+              0.2952
+            ]
+          ]
+        },
+        {
+          "id": "f8-yellow-5",
+          "faceId": "jawa-f8",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.708,
+              0.44
+            ],
+            [
+              0.6998,
+              0.4548
+            ],
+            [
+              0.68,
+              0.461
+            ],
+            [
+              0.6602,
+              0.4548
+            ],
+            [
+              0.652,
+              0.44
+            ],
+            [
+              0.6602,
+              0.4252
+            ],
+            [
+              0.68,
+              0.419
+            ],
+            [
+              0.6998,
+              0.4252
+            ]
+          ]
+        },
+        {
+          "id": "f8-yellow-6",
+          "faceId": "jawa-f8",
+          "colour": "yellow",
+          "type": "downclimb",
+          "outline": [
+            [
+              0.148,
+              0.4575
+            ],
+            [
+              0.1398,
+              0.4723
+            ],
+            [
+              0.12,
+              0.4785
+            ],
+            [
+              0.1002,
+              0.4723
+            ],
+            [
+              0.092,
+              0.4575
+            ],
+            [
+              0.1002,
+              0.4427
+            ],
+            [
+              0.12,
+              0.4365
+            ],
+            [
+              0.1398,
+              0.4427
+            ]
+          ]
+        },
+        {
+          "id": "f8-vol-grey-pyramid",
+          "faceId": "jawa-f8",
+          "colour": "grey",
+          "type": "volume",
+          "outline": [
+            [
+              0.5533,
+              0.4
+            ],
+            [
+              0.7567,
+              0.5525
+            ],
+            [
+              0.44,
+              0.5825
+            ]
+          ]
+        },
+        {
+          "id": "f8-vol-grey-block-mid",
+          "faceId": "jawa-f8",
+          "colour": "grey",
+          "type": "volume",
+          "outline": [
+            [
+              0.3333,
+              0.5575
+            ],
+            [
+              0.5133,
+              0.57
+            ],
+            [
+              0.5133,
+              0.665
+            ],
+            [
+              0.4033,
+              0.6725
+            ]
+          ]
+        },
+        {
+          "id": "f8-vol-grey-block-left",
+          "faceId": "jawa-f8",
+          "colour": "grey",
+          "type": "volume",
+          "outline": [
+            [
+              0.1533,
+              0.5525
+            ],
+            [
+              0.33,
+              0.565
+            ],
+            [
+              0.3333,
+              0.665
+            ],
+            [
+              0.2467,
+              0.71
+            ],
+            [
+              0.1333,
+              0.665
+            ]
+          ]
+        },
+        {
+          "id": "f8-vol-purple-small",
+          "faceId": "jawa-f8",
+          "colour": "purple",
+          "type": "volume",
+          "outline": [
+            [
+              0.6133,
+              0.64
+            ],
+            [
+              0.66,
+              0.635
+            ],
+            [
+              0.6667,
+              0.67
+            ],
+            [
+              0.6133,
+              0.67
+            ]
+          ]
+        },
+        {
+          "id": "f8-vol-purple-base",
+          "faceId": "jawa-f8",
+          "colour": "purple",
+          "type": "volume",
+          "outline": [
+            [
+              0.18,
+              0.785
+            ],
+            [
+              0.2733,
+              0.775
+            ],
+            [
+              0.4267,
+              0.9
+            ],
+            [
+              0.3733,
+              0.915
+            ],
+            [
+              0.1267,
+              0.91
+            ],
+            [
+              0.1067,
+              0.875
+            ]
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "verified": false,
+          "id": "jawa-blue-f3-f4",
+          "grade": "blue",
+          "holdIds": [
+            "f3-blue-vol-foot-1",
+            "f3-blue-vol-foot-2",
+            "f3-blue-low",
+            "f3-blue-mid",
+            "f3-blue-top",
+            "f4-blue-edge"
+          ],
+          "startHoldIds": [
+            "f3-blue-vol-foot-1"
+          ],
+          "finishHoldId": "f4-blue-edge",
+          "note": "Guess from the photos: the blue line on the right of face 3 looks like it rounds the arete to the blue hold on face 4."
+        },
+        {
+          "verified": false,
+          "id": "jawa-blue-f3-left",
+          "grade": "blue",
+          "holdIds": [
+            "f3-blue-left-foot-1",
+            "f3-blue-left-foot-2",
+            "f3-blue-left-foot-3",
+            "f3-blue-left"
+          ],
+          "startHoldIds": [
+            "f3-blue-left-foot-2"
+          ],
+          "finishHoldId": "f3-blue-left",
+          "note": "Guess. Might continue onto face 2 around the left arete."
+        },
+        {
+          "verified": false,
+          "id": "jawa-orange-f3",
+          "grade": "orange",
+          "holdIds": [
+            "f3-orange-low",
+            "f3-orange-edge",
+            "f3-orange-top"
+          ],
+          "startHoldIds": [
+            "f3-orange-low"
+          ],
+          "finishHoldId": "f3-orange-top",
+          "note": "Guess from hold colour and position."
+        },
+        {
+          "verified": false,
+          "id": "jawa-orange-f4",
+          "grade": "orange",
+          "holdIds": [
+            "f4-orange-low",
+            "f4-orange-horn",
+            "f4-orange-small"
+          ],
+          "startHoldIds": [
+            "f4-orange-low"
+          ],
+          "finishHoldId": "f4-orange-small",
+          "note": "FINISH tag under the small orange hold. Start is a guess."
+        },
+        {
+          "verified": false,
+          "id": "jawa-green-f4",
+          "grade": "green",
+          "holdIds": [
+            "f4-green-rail-2",
+            "f4-green-rail-1",
+            "f4-green-crimp-1",
+            "f4-green-crimp-top"
+          ],
+          "startHoldIds": [
+            "f4-green-rail-2"
+          ],
+          "finishHoldId": "f4-green-crimp-top",
+          "note": "START tag on the lower rail, FINISH tag by the top crimp. Fairly confident."
+        },
+        {
+          "verified": false,
+          "id": "jawa-black-f4",
+          "grade": "black",
+          "holdIds": [
+            "f4-black"
+          ],
+          "startHoldIds": [],
+          "finishHoldId": "f4-black",
+          "note": "FINISH tag beside the black hold. The rest of the line is on face 3 or 5 (not labelled yet)."
+        },
+        {
+          "verified": false,
+          "id": "jawa-purple-f5-f4",
+          "grade": "purple",
+          "holdIds": [
+            "f4-purple-small",
+            "f4-purple-edge"
+          ],
+          "startHoldIds": [],
+          "finishHoldId": "f4-purple-edge",
+          "note": "FINISH tag at face 4 right edge. Start and middle are on face 5, which is not labelled yet."
+        },
+        {
+          "verified": false,
+          "id": "jawa-red-f8-a",
+          "grade": "red",
+          "holdIds": [
+            "f8-red-on-block",
+            "f8-red-small-1",
+            "f8-red-small-2",
+            "f8-red-top"
+          ],
+          "startHoldIds": [
+            "f8-red-on-block"
+          ],
+          "finishHoldId": "f8-red-top",
+          "note": "Guess. Two red lines share this face; the split between them is unverified."
+        },
+        {
+          "verified": false,
+          "id": "jawa-red-f8-b",
+          "grade": "red",
+          "holdIds": [
+            "f8-red-right",
+            "f8-red-on-pyramid"
+          ],
+          "startHoldIds": [
+            "f8-red-right"
+          ],
+          "finishHoldId": null,
+          "note": "Guess. Probably continues onto face 9 or 7."
+        },
+        {
+          "verified": false,
+          "id": "jawa-green-f8",
+          "grade": "green",
+          "holdIds": [
+            "f8-green-a",
+            "f8-green-b",
+            "f8-green-low-1",
+            "f8-green-low-2",
+            "f8-green-ring",
+            "f8-green-crimp-pyramid",
+            "f8-green-sloper",
+            "f8-green-crimp-1",
+            "f8-green-top"
+          ],
+          "startHoldIds": [
+            "f8-green-a",
+            "f8-green-b"
+          ],
+          "finishHoldId": "f8-green-top",
+          "note": "START tag by the lower green pair, tag by the top green. Fairly confident."
+        },
+        {
+          "verified": false,
+          "id": "jawa-orange-f8",
+          "grade": "orange",
+          "holdIds": [
+            "f8-orange-on-pyramid",
+            "f8-orange-small-right",
+            "f8-orange-big",
+            "f8-orange-ring",
+            "f8-orange-top"
+          ],
+          "startHoldIds": [
+            "f8-orange-on-pyramid"
+          ],
+          "finishHoldId": "f8-orange-top",
+          "note": "Guess. Tags by the pyramid orange and the top orange."
+        },
+        {
+          "verified": false,
+          "id": "jawa-white-f8",
+          "grade": "white",
+          "holdIds": [
+            "f8-white-mid",
+            "f8-white-top"
+          ],
+          "startHoldIds": [],
+          "finishHoldId": null,
+          "note": "White line on the arete; most of it is on face 9."
+        }
+      ]
+    }
+  ],
+  "hall": {
+    "note": "Schematic redrawn from the printed map; not to scale. Jawa is drawn from its fitted footprint; its rotation in the hall is a guess.",
+    "outline": [
+      [
+        13.4,
+        44.8
+      ],
+      [
+        28.8,
+        39
+      ],
+      [
+        46.8,
+        52.8
+      ],
+      [
+        26,
+        70.4
+      ],
+      [
+        4.4,
+        48.4
+      ]
+    ],
+    "blocks": [
+      {
+        "id": "latte",
+        "name": "Latte",
+        "inScope": true,
+        "outline": [
+          [
+            16.8,
+            41.6
+          ],
+          [
+            20.8,
+            39.6
+          ],
+          [
+            22.4,
+            41.2
+          ],
+          [
+            18.4,
+            43.4
+          ]
+        ]
+      },
+      {
+        "id": "atelier",
+        "name": "Atelier",
+        "inScope": true,
+        "outline": [
+          [
+            22.8,
+            43.2
+          ],
+          [
+            29.6,
+            38.6
+          ],
+          [
+            30.8,
+            40
+          ],
+          [
+            24,
+            44.8
+          ]
+        ]
+      },
+      {
+        "id": "graceland",
+        "name": "Graceland",
+        "inScope": true,
+        "outline": [
+          [
+            13.2,
+            54.4
+          ],
+          [
+            14.8,
+            53.2
+          ],
+          [
+            24.8,
+            63.2
+          ],
+          [
+            23.2,
+            64.4
+          ]
+        ]
+      },
+      {
+        "id": "stronach",
+        "name": "Stronach",
+        "inScope": true,
+        "outline": [
+          [
+            23,
+            50.8
+          ],
+          [
+            25.6,
+            49.2
+          ],
+          [
+            28.8,
+            50
+          ],
+          [
+            31.2,
+            53.2
+          ],
+          [
+            30.4,
+            56.8
+          ],
+          [
+            28,
+            57.8
+          ],
+          [
+            24.8,
+            55.2
+          ]
+        ]
+      },
+      {
+        "id": "burrow",
+        "name": "The Burrow",
+        "inScope": true,
+        "outline": [
+          [
+            27.6,
+            43.4
+          ],
+          [
+            29.4,
+            42.8
+          ],
+          [
+            37.2,
+            49.4
+          ],
+          [
+            36.2,
+            51.8
+          ],
+          [
+            27.6,
+            45.2
+          ]
+        ]
+      },
+      {
+        "id": "garage",
+        "name": "The Garage",
+        "inScope": false,
+        "outline": [
+          [
+            34,
+            44.2
+          ],
+          [
+            36,
+            43.6
+          ],
+          [
+            42.4,
+            49.6
+          ],
+          [
+            41.4,
+            51.6
+          ],
+          [
+            35.2,
+            48
+          ]
+        ]
+      },
+      {
+        "id": "rope-gym",
+        "name": "Rope gym",
+        "inScope": false,
+        "outline": [
+          [
+            30.4,
+            38.4
+          ],
+          [
+            45.2,
+            24
+          ],
+          [
+            53.2,
+            32.8
+          ],
+          [
+            46.8,
+            52.8
+          ]
+        ]
+      }
+    ]
+  }
+}

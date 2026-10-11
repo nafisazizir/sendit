@@ -25,6 +25,10 @@ Vite prints a `Network:` address (e.g. `http://192.168.0.101:5173`). Open that o
 - Problems that cross a corner show **F3 / F4** chips; tap one to jump faces with the problem still selected.
 - Grade dots at the top filter the list.
 
+**Hall view** (tap **Hall**)
+
+- Top-down schematic of the boulder hall, redrawn from the printed map (not to scale). Jawa is drawn from its fitted footprint with its faces numbered; tap a face to open it.
+
 **Block view** (tap **Block**)
 
 - Jawa as a nine-sided prism with F1–F9 labels. Drag to orbit, pinch to zoom; ‹ › swings the camera to that face. Each face is its anchor photo (only the wall region, perspective-corrected) with the same hold outlines.
@@ -47,7 +51,7 @@ Vite prints a `Network:` address (e.g. `http://192.168.0.101:5173`). Open that o
 - A `hold` has an `outline` in normalised photo coordinates (0..1) on its face's anchor photo, a `colour` and a `type` (`hold`, shared `volume`, or `downclimb`).
 - A `problem` is a list of hold ids on any face of the wall, plus `startHoldIds`, `finishHoldId`, and `verified`.
 
-`scripts/gen-initial-data.mjs` is the script that produced the first version of the file from hand-estimated coordinates. Once you have edited the JSON in the app, stop using the script, or it will overwrite your work.
+`scripts/gen-initial-data.mjs` produced the first three faces from hand-estimated coordinates; the other faces came in as fragments under `model/labels/` via `scripts/merge-labels.mjs`, and `scripts/dedupe-holds.py` removed holds outlined twice on neighbouring faces by projecting them through the SfM model. All of that is history now: edit the JSON in the app, and do not re-run those scripts or they will overwrite your work.
 
 ## Block model
 

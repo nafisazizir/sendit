@@ -36,8 +36,9 @@ for (const path of process.argv.slice(2)) {
       else if (p.note && existing.note && !existing.note.includes(p.note)) existing.note += ` · ${p.note}`;
       xp++;
     } else {
-      set.problems.push({ verified: false, ...p });
-      problemById.set(p.id, p);
+      const fresh = { verified: false, ...p };
+      set.problems.push(fresh);
+      problemById.set(p.id, fresh); // the same object, so a later fragment extends what is in the set
       np++;
     }
   }

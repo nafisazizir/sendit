@@ -1,0 +1,1408 @@
+{
+ "faceId": "jawa-f1",
+ "holds": [
+  {
+   "id": "f1-yellow-top-jug",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.096,
+     0.2494
+    ],
+    [
+     0.1075,
+     0.2401
+    ],
+    [
+     0.1275,
+     0.2371
+    ],
+    [
+     0.145,
+     0.2438
+    ],
+    [
+     0.146,
+     0.2551
+    ],
+    [
+     0.1275,
+     0.2626
+    ],
+    [
+     0.1125,
+     0.2757
+    ],
+    [
+     0.1025,
+     0.2719
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-upper-pinch",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.23,
+     0.2823
+    ],
+    [
+     0.2252,
+     0.2922
+    ],
+    [
+     0.2137,
+     0.2963
+    ],
+    [
+     0.2023,
+     0.2922
+    ],
+    [
+     0.1975,
+     0.2823
+    ],
+    [
+     0.2023,
+     0.2723
+    ],
+    [
+     0.2137,
+     0.2682
+    ],
+    [
+     0.2252,
+     0.2723
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-upper-mid",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.205,
+     0.3385
+    ],
+    [
+     0.1999,
+     0.3485
+    ],
+    [
+     0.1875,
+     0.3526
+    ],
+    [
+     0.1751,
+     0.3485
+    ],
+    [
+     0.17,
+     0.3385
+    ],
+    [
+     0.1751,
+     0.3286
+    ],
+    [
+     0.1875,
+     0.3245
+    ],
+    [
+     0.1999,
+     0.3286
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-below-pyramid",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.311,
+     0.3723
+    ],
+    [
+     0.3054,
+     0.3822
+    ],
+    [
+     0.2918,
+     0.3863
+    ],
+    [
+     0.2781,
+     0.3822
+    ],
+    [
+     0.2725,
+     0.3723
+    ],
+    [
+     0.2781,
+     0.3623
+    ],
+    [
+     0.2918,
+     0.3582
+    ],
+    [
+     0.3054,
+     0.3623
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-left-mid",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.115,
+     0.5223
+    ],
+    [
+     0.111,
+     0.5283
+    ],
+    [
+     0.1013,
+     0.5308
+    ],
+    [
+     0.0915,
+     0.5283
+    ],
+    [
+     0.0875,
+     0.5223
+    ],
+    [
+     0.0915,
+     0.5164
+    ],
+    [
+     0.1013,
+     0.5139
+    ],
+    [
+     0.111,
+     0.5164
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-under-slab",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.1625,
+     0.6114
+    ],
+    [
+     0.1588,
+     0.618
+    ],
+    [
+     0.15,
+     0.6208
+    ],
+    [
+     0.1412,
+     0.618
+    ],
+    [
+     0.1375,
+     0.6114
+    ],
+    [
+     0.1412,
+     0.6048
+    ],
+    [
+     0.15,
+     0.602
+    ],
+    [
+     0.1588,
+     0.6048
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-right-mid",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.32,
+     0.6114
+    ],
+    [
+     0.3149,
+     0.6194
+    ],
+    [
+     0.3025,
+     0.6227
+    ],
+    [
+     0.2901,
+     0.6194
+    ],
+    [
+     0.285,
+     0.6114
+    ],
+    [
+     0.2901,
+     0.6034
+    ],
+    [
+     0.3025,
+     0.6002
+    ],
+    [
+     0.3149,
+     0.6034
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-double-knob",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.171,
+     0.647
+    ],
+    [
+     0.19,
+     0.6422
+    ],
+    [
+     0.205,
+     0.6508
+    ],
+    [
+     0.22,
+     0.6545
+    ],
+    [
+     0.23,
+     0.662
+    ],
+    [
+     0.22,
+     0.6677
+    ],
+    [
+     0.2125,
+     0.6752
+    ],
+    [
+     0.1975,
+     0.6733
+    ],
+    [
+     0.1875,
+     0.6639
+    ],
+    [
+     0.1725,
+     0.6564
+    ]
+   ],
+   "note": "two START tags hang on its lower-left - odd for a downclimb; may belong to another line"
+  },
+  {
+   "id": "f1-yellow-on-purple-volume",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.409,
+     0.6624
+    ],
+    [
+     0.4053,
+     0.6693
+    ],
+    [
+     0.3965,
+     0.6722
+    ],
+    [
+     0.3877,
+     0.6693
+    ],
+    [
+     0.384,
+     0.6624
+    ],
+    [
+     0.3877,
+     0.6555
+    ],
+    [
+     0.3965,
+     0.6527
+    ],
+    [
+     0.4053,
+     0.6555
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-low-mid",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.265,
+     0.708
+    ],
+    [
+     0.2613,
+     0.7153
+    ],
+    [
+     0.2525,
+     0.7183
+    ],
+    [
+     0.2437,
+     0.7153
+    ],
+    [
+     0.24,
+     0.708
+    ],
+    [
+     0.2437,
+     0.7007
+    ],
+    [
+     0.2525,
+     0.6977
+    ],
+    [
+     0.2613,
+     0.7007
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-low-left",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.1375,
+     0.7427
+    ],
+    [
+     0.1349,
+     0.7475
+    ],
+    [
+     0.1288,
+     0.7494
+    ],
+    [
+     0.1226,
+     0.7475
+    ],
+    [
+     0.12,
+     0.7427
+    ],
+    [
+     0.1226,
+     0.7379
+    ],
+    [
+     0.1288,
+     0.7359
+    ],
+    [
+     0.1349,
+     0.7379
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-bottom-upper",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.2175,
+     0.8183
+    ],
+    [
+     0.2135,
+     0.8258
+    ],
+    [
+     0.2037,
+     0.829
+    ],
+    [
+     0.194,
+     0.8258
+    ],
+    [
+     0.19,
+     0.8183
+    ],
+    [
+     0.194,
+     0.8107
+    ],
+    [
+     0.2037,
+     0.8076
+    ],
+    [
+     0.2135,
+     0.8107
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-bottom-left",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.19,
+     0.864
+    ],
+    [
+     0.186,
+     0.8716
+    ],
+    [
+     0.1762,
+     0.8747
+    ],
+    [
+     0.1665,
+     0.8716
+    ],
+    [
+     0.1625,
+     0.864
+    ],
+    [
+     0.1665,
+     0.8565
+    ],
+    [
+     0.1762,
+     0.8533
+    ],
+    [
+     0.186,
+     0.8565
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-bottom-right",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.3275,
+     0.8811
+    ],
+    [
+     0.3231,
+     0.8867
+    ],
+    [
+     0.3125,
+     0.889
+    ],
+    [
+     0.3019,
+     0.8867
+    ],
+    [
+     0.2975,
+     0.8811
+    ],
+    [
+     0.3019,
+     0.8755
+    ],
+    [
+     0.3125,
+     0.8732
+    ],
+    [
+     0.3231,
+     0.8755
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-slab-upper",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "volume",
+   "outline": [
+    [
+     0.22,
+     0.4201
+    ],
+    [
+     0.2565,
+     0.425
+    ],
+    [
+     0.2735,
+     0.4527
+    ],
+    [
+     0.2635,
+     0.4902
+    ],
+    [
+     0.25,
+     0.53
+    ],
+    [
+     0.2435,
+     0.5503
+    ],
+    [
+     0.2,
+     0.5551
+    ],
+    [
+     0.17,
+     0.5375
+    ],
+    [
+     0.1655,
+     0.5
+    ],
+    [
+     0.18,
+     0.47
+    ],
+    [
+     0.1965,
+     0.4351
+    ]
+   ]
+  },
+  {
+   "id": "f1-yellow-slab-lower",
+   "faceId": "jawa-f1",
+   "colour": "yellow",
+   "type": "volume",
+   "outline": [
+    [
+     0.1675,
+     0.5889
+    ],
+    [
+     0.19,
+     0.572
+    ],
+    [
+     0.225,
+     0.5551
+    ],
+    [
+     0.26,
+     0.5484
+    ],
+    [
+     0.27,
+     0.5514
+    ],
+    [
+     0.27,
+     0.572
+    ],
+    [
+     0.26,
+     0.5964
+    ],
+    [
+     0.245,
+     0.6114
+    ],
+    [
+     0.225,
+     0.6245
+    ],
+    [
+     0.21,
+     0.6264
+    ],
+    [
+     0.19,
+     0.6114
+    ],
+    [
+     0.17,
+     0.6002
+    ]
+   ]
+  },
+  {
+   "id": "f1-orange-pyramid",
+   "faceId": "jawa-f1",
+   "colour": "orange",
+   "type": "volume",
+   "outline": [
+    [
+     0.3175,
+     0.3443
+    ],
+    [
+     0.35,
+     0.347
+    ],
+    [
+     0.425,
+     0.3695
+    ],
+    [
+     0.4,
+     0.3788
+    ],
+    [
+     0.36,
+     0.4051
+    ],
+    [
+     0.345,
+     0.4314
+    ],
+    [
+     0.33,
+     0.4576
+    ],
+    [
+     0.3225,
+     0.4126
+    ]
+   ]
+  },
+  {
+   "id": "f1-grey-triangle",
+   "faceId": "jawa-f1",
+   "colour": "grey",
+   "type": "volume",
+   "outline": [
+    [
+     0.564,
+     0.3938
+    ],
+    [
+     0.6,
+     0.4689
+    ],
+    [
+     0.634,
+     0.5533
+    ],
+    [
+     0.595,
+     0.6058
+    ],
+    [
+     0.5,
+     0.6339
+    ],
+    [
+     0.484,
+     0.6339
+    ],
+    [
+     0.47,
+     0.5626
+    ],
+    [
+     0.459,
+     0.5289
+    ],
+    [
+     0.51,
+     0.4576
+    ]
+   ]
+  },
+  {
+   "id": "f1-purple-prism",
+   "faceId": "jawa-f1",
+   "colour": "purple",
+   "type": "volume",
+   "outline": [
+    [
+     0.374,
+     0.6609
+    ],
+    [
+     0.445,
+     0.6433
+    ],
+    [
+     0.591,
+     0.6084
+    ],
+    [
+     0.595,
+     0.6133
+    ],
+    [
+     0.55,
+     0.6452
+    ],
+    [
+     0.5,
+     0.6827
+    ],
+    [
+     0.42,
+     0.7314
+    ],
+    [
+     0.415,
+     0.7239
+    ],
+    [
+     0.39,
+     0.6902
+    ]
+   ],
+   "note": "Voltomic prism; START tag on its lower tip (no hold beside it)"
+  },
+  {
+   "id": "f1-orange-volume-low",
+   "faceId": "jawa-f1",
+   "colour": "orange",
+   "type": "volume",
+   "outline": [
+    [
+     0.2825,
+     0.7783
+    ],
+    [
+     0.33,
+     0.7314
+    ],
+    [
+     0.375,
+     0.7464
+    ],
+    [
+     0.415,
+     0.7577
+    ],
+    [
+     0.4675,
+     0.7997
+    ],
+    [
+     0.435,
+     0.7997
+    ],
+    [
+     0.35,
+     0.7914
+    ],
+    [
+     0.305,
+     0.7877
+    ]
+   ]
+  },
+  {
+   "id": "f1-white-on-pyramid",
+   "faceId": "jawa-f1",
+   "colour": "white",
+   "type": "hold",
+   "outline": [
+    [
+     0.334,
+     0.4107
+    ],
+    [
+     0.345,
+     0.407
+    ],
+    [
+     0.354,
+     0.4089
+    ],
+    [
+     0.355,
+     0.4182
+    ],
+    [
+     0.349,
+     0.4276
+    ],
+    [
+     0.339,
+     0.4295
+    ],
+    [
+     0.3325,
+     0.4239
+    ]
+   ],
+   "note": "light grey/white hold on the orange pyramid; two START tags hang just below-left of it"
+  },
+  {
+   "id": "f1-white-big",
+   "faceId": "jawa-f1",
+   "colour": "white",
+   "type": "hold",
+   "outline": [
+    [
+     0.111,
+     0.5776
+    ],
+    [
+     0.12,
+     0.5626
+    ],
+    [
+     0.135,
+     0.5469
+    ],
+    [
+     0.1475,
+     0.5514
+    ],
+    [
+     0.155,
+     0.5701
+    ],
+    [
+     0.15,
+     0.5833
+    ],
+    [
+     0.135,
+     0.5889
+    ],
+    [
+     0.12,
+     0.5926
+    ]
+   ],
+   "note": "two START tags below it"
+  },
+  {
+   "id": "f1-white-edge",
+   "faceId": "jawa-f1",
+   "colour": "white",
+   "type": "hold",
+   "outline": [
+    [
+     0.06,
+     0.5701
+    ],
+    [
+     0.0577,
+     0.5768
+    ],
+    [
+     0.052,
+     0.5795
+    ],
+    [
+     0.0463,
+     0.5768
+    ],
+    [
+     0.044,
+     0.5701
+    ],
+    [
+     0.0463,
+     0.5635
+    ],
+    [
+     0.052,
+     0.5608
+    ],
+    [
+     0.0577,
+     0.5635
+    ]
+   ],
+   "note": "START tag below it"
+  },
+  {
+   "id": "f1-orange-triangle-upper",
+   "faceId": "jawa-f1",
+   "colour": "orange",
+   "type": "hold",
+   "outline": [
+    [
+     0.606,
+     0.4977
+    ],
+    [
+     0.6037,
+     0.5028
+    ],
+    [
+     0.598,
+     0.5049
+    ],
+    [
+     0.5923,
+     0.5028
+    ],
+    [
+     0.59,
+     0.4977
+    ],
+    [
+     0.5923,
+     0.4927
+    ],
+    [
+     0.598,
+     0.4906
+    ],
+    [
+     0.6037,
+     0.4927
+    ]
+   ],
+   "note": "peach/tan, same colour as f1-orange-top"
+  },
+  {
+   "id": "f1-orange-triangle-lower",
+   "faceId": "jawa-f1",
+   "colour": "orange",
+   "type": "hold",
+   "outline": [
+    [
+     0.546,
+     0.5908
+    ],
+    [
+     0.5525,
+     0.5851
+    ],
+    [
+     0.5625,
+     0.5863
+    ],
+    [
+     0.57,
+     0.5945
+    ],
+    [
+     0.574,
+     0.602
+    ],
+    [
+     0.5675,
+     0.6039
+    ],
+    [
+     0.555,
+     0.5994
+    ]
+   ],
+   "note": "no tag visible; probably the orange start"
+  },
+  {
+   "id": "f1-black-low-edge",
+   "faceId": "jawa-f1",
+   "colour": "black",
+   "type": "hold",
+   "outline": [
+    [
+     0.089,
+     0.6926
+    ],
+    [
+     0.0869,
+     0.6975
+    ],
+    [
+     0.082,
+     0.6995
+    ],
+    [
+     0.0771,
+     0.6975
+    ],
+    [
+     0.075,
+     0.6926
+    ],
+    [
+     0.0771,
+     0.6877
+    ],
+    [
+     0.082,
+     0.6857
+    ],
+    [
+     0.0869,
+     0.6877
+    ]
+   ]
+  },
+  {
+   "id": "f1-white-bottom-edge",
+   "faceId": "jawa-f1",
+   "colour": "white",
+   "type": "hold",
+   "outline": [
+    [
+     0.1175,
+     0.8158
+    ],
+    [
+     0.1152,
+     0.8211
+    ],
+    [
+     0.1095,
+     0.8233
+    ],
+    [
+     0.1038,
+     0.8211
+    ],
+    [
+     0.1015,
+     0.8158
+    ],
+    [
+     0.1038,
+     0.8105
+    ],
+    [
+     0.1095,
+     0.8083
+    ],
+    [
+     0.1152,
+     0.8105
+    ]
+   ]
+  },
+  {
+   "id": "f1-white-bottom-chip",
+   "faceId": "jawa-f1",
+   "colour": "white",
+   "type": "hold",
+   "outline": [
+    [
+     0.161,
+     0.8608
+    ],
+    [
+     0.1598,
+     0.8627
+    ],
+    [
+     0.1568,
+     0.8635
+    ],
+    [
+     0.1537,
+     0.8627
+    ],
+    [
+     0.1525,
+     0.8608
+    ],
+    [
+     0.1537,
+     0.859
+    ],
+    [
+     0.1568,
+     0.8582
+    ],
+    [
+     0.1598,
+     0.859
+    ]
+   ]
+  },
+  {
+   "id": "f1-black-bottom-arete",
+   "faceId": "jawa-f1",
+   "colour": "black",
+   "type": "hold",
+   "outline": [
+    [
+     0.474,
+     0.859
+    ],
+    [
+     0.495,
+     0.8485
+    ],
+    [
+     0.514,
+     0.8466
+    ],
+    [
+     0.5125,
+     0.8721
+    ],
+    [
+     0.495,
+     0.8695
+    ]
+   ],
+   "note": "dark grey pyramid with a red insert, straddles the F1/F2 arete"
+  },
+  {
+   "id": "f1-black-bottom-arete-2",
+   "faceId": "jawa-f1",
+   "colour": "black",
+   "type": "hold",
+   "outline": [
+    [
+     0.511,
+     0.874
+    ],
+    [
+     0.52,
+     0.8683
+    ],
+    [
+     0.549,
+     0.8852
+    ],
+    [
+     0.53,
+     0.8995
+    ],
+    [
+     0.5125,
+     0.8983
+    ]
+   ],
+   "note": "dark grey pyramid, just right of the F1/F2 arete"
+  },
+  {
+   "id": "f1-orange-top",
+   "faceId": "jawa-f1",
+   "colour": "orange",
+   "type": "hold",
+   "outline": [
+    [
+     0.571,
+     0.1125
+    ],
+    [
+     0.5825,
+     0.1137
+    ],
+    [
+     0.5975,
+     0.1208
+    ],
+    [
+     0.608,
+     0.1275
+    ],
+    [
+     0.609,
+     0.1339
+    ],
+    [
+     0.6,
+     0.1343
+    ],
+    [
+     0.585,
+     0.1268
+    ],
+    [
+     0.5775,
+     0.1208
+    ]
+   ],
+   "note": "tag below it, unreadable (probably FINISH); on the F2 side of the arete, above the grey triangle"
+  },
+  {
+   "id": "f1-black-left-arete",
+   "faceId": "jawa-f1",
+   "colour": "black",
+   "type": "hold",
+   "outline": [
+    [
+     0.0125,
+     0.5146
+    ],
+    [
+     0.019,
+     0.5124
+    ],
+    [
+     0.025,
+     0.5169
+    ],
+    [
+     0.026,
+     0.527
+    ],
+    [
+     0.021,
+     0.5289
+    ],
+    [
+     0.014,
+     0.5233
+    ]
+   ]
+  },
+  {
+   "id": "f1-grey-left-arete",
+   "faceId": "jawa-f1",
+   "colour": "grey",
+   "type": "hold",
+   "outline": [
+    [
+     0.004,
+     0.5195
+    ],
+    [
+     0.01,
+     0.5165
+    ],
+    [
+     0.015,
+     0.5195
+    ],
+    [
+     0.017,
+     0.5308
+    ],
+    [
+     0.0125,
+     0.5334
+    ],
+    [
+     0.006,
+     0.5289
+    ]
+   ],
+   "note": "silver/grey hold right on the F9/F1 arete; may be a dirty white hold of the white arete line"
+  }
+ ],
+ "problems": [
+  {
+   "id": "jawa-white-f8",
+   "grade": "white",
+   "holdIds": [
+    "f1-white-edge",
+    "f1-white-big",
+    "f1-grey-left-arete",
+    "f1-white-bottom-edge",
+    "f1-white-bottom-chip"
+   ],
+   "startHoldIds": [
+    "f1-white-edge",
+    "f1-white-big"
+   ],
+   "finishHoldId": null,
+   "note": "F1 part of the white arete line (continues up onto F9 / the F9-F1 arete). f1-white-edge (1 START tag) and f1-white-big (2 START tags) are the starts; the two small white holds low on the left are probably its feet. f1-grey-left-arete (silver, on the arete) is a low-confidence guess. Medium confidence.",
+   "verified": false
+  },
+  {
+   "id": "jawa-orange-f1",
+   "grade": "orange",
+   "holdIds": [
+    "f1-orange-triangle-lower",
+    "f1-orange-triangle-upper",
+    "f1-orange-top"
+   ],
+   "startHoldIds": [
+    "f1-orange-triangle-lower"
+   ],
+   "finishHoldId": "f1-orange-top",
+   "note": "Three peach/orange holds: two on the grey triangle volume and one high near the top with an unreadable tag (assumed FINISH). No START tag seen, so the start is a guess. All three sit just right of the F1/F2 arete and also appear in the F2 photo; check the F2 labels for duplicates. Low-medium confidence.",
+   "verified": false
+  },
+  {
+   "id": "jawa-white-f1",
+   "grade": "white",
+   "holdIds": [
+    "f1-white-on-pyramid"
+   ],
+   "startHoldIds": [
+    "f1-white-on-pyramid"
+   ],
+   "finishHoldId": null,
+   "note": "Only one light grey/white hold on the orange pyramid, with two START tags under it. No other white holds nearby, so this may be a volumes-only line, a different grade colour, or part of jawa-white-f8. Low confidence.",
+   "verified": false
+  },
+  {
+   "id": "jawa-black-f1-a",
+   "grade": "black",
+   "holdIds": [
+    "f1-black-left-arete",
+    "f1-black-low-edge"
+   ],
+   "startHoldIds": [],
+   "finishHoldId": null,
+   "note": "Two small black holds on the F9/F1 arete. They most likely belong to a black line on F9 (F9 has other black holds near the arete). Low confidence.",
+   "verified": false
+  },
+  {
+   "id": "jawa-black-f1-b",
+   "grade": "black",
+   "holdIds": [
+    "f1-black-bottom-arete",
+    "f1-black-bottom-arete-2"
+   ],
+   "startHoldIds": [
+    "f1-black-bottom-arete",
+    "f1-black-bottom-arete-2"
+   ],
+   "finishHoldId": null,
+   "note": "Two dark grey pyramids low on the F1/F2 arete; one has a red insert. No tags seen, so the starts are a guess. There are no other black holds on F1, so the line probably goes onto F2 or uses the purple prism, which has a START tag on its tip. Low confidence.",
+   "verified": false
+  }
+ ],
+ "notes": "F1 = the left ~55% of the anchor, from the F9/F1 arete (black curved volume on the far left, which is F9's and excluded) to the grey triangle (included). Yellow: 14 downclimb holds plus 2 large yellow slab volumes. Tags I could not explain: two START tags under f1-yellow-double-knob (a downclimb); one START tag on the lower tip of the purple prism with no hold beside it; a red/white sticker on top of the low orange volume (probably a maker's label); the tag under f1-orange-top is unreadable. Possible overlap with F2: f1-orange-top, both orange holds on the grey triangle and the two dark pyramids at the bottom right are all on or just past the F1/F2 arete and show in the F2 anchor photo. The pyramid hold's colour (white vs grey) is uncertain."
+}

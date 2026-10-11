@@ -1,0 +1,337 @@
+{
+ "faceId": "jawa-f5",
+ "holds": [
+  {
+   "id": "f5-yellow-big",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.3975,
+     0.317
+    ],
+    [
+     0.42,
+     0.3113
+    ],
+    [
+     0.445,
+     0.3132
+    ],
+    [
+     0.455,
+     0.3207
+    ],
+    [
+     0.45,
+     0.332
+    ],
+    [
+     0.435,
+     0.347
+    ],
+    [
+     0.425,
+     0.3526
+    ],
+    [
+     0.41,
+     0.3432
+    ],
+    [
+     0.3975,
+     0.3301
+    ]
+   ],
+   "note": "Big yellow pocket, upper middle of face.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5-yellow-low",
+   "colour": "yellow",
+   "type": "downclimb",
+   "outline": [
+    [
+     0.31,
+     0.6752
+    ],
+    [
+     0.32,
+     0.6699
+    ],
+    [
+     0.334,
+     0.6699
+    ],
+    [
+     0.341,
+     0.6752
+    ],
+    [
+     0.339,
+     0.6827
+    ],
+    [
+     0.325,
+     0.6857
+    ],
+    [
+     0.312,
+     0.6827
+    ]
+   ],
+   "note": "Small yellow foothold below the START crimp.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5-white-arete-sliver",
+   "colour": "white",
+   "type": "hold",
+   "outline": [
+    [
+     0.509,
+     0.2806
+    ],
+    [
+     0.5125,
+     0.2858
+    ],
+    [
+     0.513,
+     0.3188
+    ],
+    [
+     0.5115,
+     0.3556
+    ],
+    [
+     0.505,
+     0.3526
+    ],
+    [
+     0.496,
+     0.3338
+    ],
+    [
+     0.493,
+     0.3151
+    ],
+    [
+     0.496,
+     0.2971
+    ],
+    [
+     0.5025,
+     0.2843
+    ]
+   ],
+   "note": "Long thin sliver on the F5 side of the arete. Pale lavender-grey: could be white, grey or faded purple. No tag seen.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5-green-start",
+   "colour": "green",
+   "type": "hold",
+   "outline": [
+    [
+     0.34,
+     0.6317
+    ],
+    [
+     0.343,
+     0.6347
+    ],
+    [
+     0.339,
+     0.6422
+    ],
+    [
+     0.337,
+     0.6489
+    ],
+    [
+     0.334,
+     0.653
+    ],
+    [
+     0.331,
+     0.6497
+    ],
+    [
+     0.332,
+     0.6422
+    ],
+    [
+     0.335,
+     0.6362
+    ]
+   ],
+   "note": "Pale mint/grey-green crimp with a START tag and a number tag (13?). Same pale mint as the small crimps labelled green on F4.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5-black-knob",
+   "colour": "black",
+   "type": "hold",
+   "outline": [
+    [
+     0.5085,
+     0.7022
+    ],
+    [
+     0.5048,
+     0.7093
+    ],
+    [
+     0.496,
+     0.7123
+    ],
+    [
+     0.4872,
+     0.7093
+    ],
+    [
+     0.4835,
+     0.7022
+    ],
+    [
+     0.4872,
+     0.695
+    ],
+    [
+     0.496,
+     0.692
+    ],
+    [
+     0.5048,
+     0.695
+    ]
+   ],
+   "note": "Dark charcoal knob bolted onto the lower-right of the big purple volume, at the arete. START tag directly below it (at the arete). Could be dark purple.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5-vol-purple-triangle",
+   "colour": "purple",
+   "type": "volume",
+   "outline": [
+    [
+     0.3425,
+     0.6452
+    ],
+    [
+     0.38,
+     0.6257
+    ],
+    [
+     0.43,
+     0.6009
+    ],
+    [
+     0.48,
+     0.5754
+    ],
+    [
+     0.509,
+     0.5626
+    ],
+    [
+     0.5135,
+     0.5739
+    ],
+    [
+     0.514,
+     0.6452
+    ],
+    [
+     0.512,
+     0.7322
+    ],
+    [
+     0.475,
+     0.7089
+    ],
+    [
+     0.425,
+     0.6864
+    ],
+    [
+     0.38,
+     0.6639
+    ]
+   ],
+   "note": "Big purple triangular pyramid volume against the arete.",
+   "faceId": "jawa-f5"
+  },
+  {
+   "id": "f5-vol-grey-triangle",
+   "colour": "grey",
+   "type": "volume",
+   "outline": [
+    [
+     0.515,
+     0.817
+    ],
+    [
+     0.506,
+     0.8357
+    ],
+    [
+     0.47,
+     0.8927
+    ],
+    [
+     0.434,
+     0.9512
+    ],
+    [
+     0.395,
+     0.9257
+    ],
+    [
+     0.35,
+     0.9044
+    ],
+    [
+     0.3475,
+     0.8631
+    ],
+    [
+     0.415,
+     0.8443
+    ]
+   ],
+   "note": "Dark grey/black triangular volume at the base, against the arete.",
+   "faceId": "jawa-f5"
+  }
+ ],
+ "problems": [
+  {
+   "id": "jawa-black-f5-f6",
+   "grade": "black",
+   "holdIds": [
+    "f5-black-knob"
+   ],
+   "startHoldIds": [
+    "f5-black-knob"
+   ],
+   "finishHoldId": null,
+   "note": "START tag under the black knob on the purple volume; the black hold just round the arete on F6 also carries a START-style tag, so this looks like a two-hand start split across the arete with the rest of the line on F6. Not linked to jawa-black-f4 (no black holds between here and the top-left of F4). Low-medium confidence; knob colour could be dark purple.",
+   "verified": false
+  },
+  {
+   "id": "jawa-green-f5",
+   "grade": "green",
+   "holdIds": [
+    "f5-green-start"
+   ],
+   "startHoldIds": [
+    "f5-green-start"
+   ],
+   "finishHoldId": null,
+   "note": "Pale mint crimp with START tag. Nothing else this colour on F5; it probably continues left onto F4 to the pale mint crimps (f4-green-crimp-1, f4-green-crimp-top with FINISH tag) that are currently in jawa-green-f4 with the bright green rails. Worth checking whether those are two different lines. Low confidence.",
+   "verified": false
+  }
+ ],
+ "notes": "The F5 anchor is centred on the sharp arete between F5 (left half) and F6 (right half: big red hold, tall purple triangles, purple balls, black hold). Only the left face is labelled. The leftmost ~quarter of the photo (left of a diagonal seam from about x=0.26,y=0.19 to x=0.22,y=0.38) is F4 (~10 deg bend) and its holds are already labelled on F4: yellow pair, dark purple sliver with tag (f4-purple-edge), small purple (f4-purple-small), pale green crimp, green rail, purple blocks; not duplicated here. F5 itself is sparse: two yellow downclimb holds, pale arete sliver, pale-mint START crimp, black knob with START tag, purple and grey triangle volumes. No purple holds on F5, so jawa-purple-f5-f4 gets no F5 holds; its start is probably the purple balls at the base of F6 just right of the arete. Arete sliver colour unresolved (white/grey/faded purple) and left out of problems."
+}
