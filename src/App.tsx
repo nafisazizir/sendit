@@ -5,6 +5,7 @@ import FaceSwitcher from './components/FaceSwitcher';
 import ProblemSheet from './components/ProblemSheet';
 import Editor, { type Tool } from './components/Editor';
 import BlockView from './components/BlockView';
+import HallMap from './components/HallMap';
 import { bounds, pointInPolygon, polygonArea } from './geometry';
 import { newId, useData } from './store';
 import type { Hold, HoldColour, HoldType, Pt } from './types';
@@ -26,7 +27,10 @@ export default function App() {
   const photo = set.photos.find((p) => p.faceId === face.id && p.role === 'anchor')!;
   const holdsOnFace = useMemo(() => set.holds.filter((h) => h.faceId === face.id), [set.holds, face.id]);
 
-  const [view, setView] = useState<'face' | 'block'>(() => (new URLSearchParams(location.search).get('view') === 'block' ? 'block' : 'face'));
+  const [view, setView] = useState<'face' | 'block' | 'hall'>(() => {
+    const v = new URLSearchParams(location.search).get('view');
+    return v === 'block' || v === 'hall' ? v : 'face';
+  });
   const [selectedProblemId, setSelectedProblemId] = useState<string | null>(null);
   const selectedProblem = set.problems.find((p) => p.id === selectedProblemId) ?? null;
 
@@ -49,7 +53,7 @@ export default function App() {
   useEffect(() => {
     const u = new URL(location.href);
     u.searchParams.set('face', String(face.number));
-    if (view === 'block') u.searchParams.set('view', 'block');
+    if (view !== 'face') u.searchParams.set('view', view);
     else u.searchParams.delete('view');
     history.replaceState(null, '', u);
   }, [face.number, view]);
@@ -159,6 +163,11 @@ export default function App() {
             <button type="button" className={view === 'block' ? 'active' : ''} onClick={() => setView('block')}>
               Block
             </button>
+            {data.hall && (
+              <button type="button" className={view === 'hall' ? 'active' : ''} onClick={() => setView('hall')}>
+                Hall
+              </button>
+            )}
           </div>
         )}
         <button
@@ -177,7 +186,21 @@ export default function App() {
         </button>
       </header>
 
-      {view === 'block' && !editing ? (
+      {view === 'hall' && !editing && data.hall ? (
+        <div className="canvas-wrap">
+          <HallMap
+            hall={data.hall}
+            walls={data.walls}
+            faces={data.faces}
+            currentFaceId={face.id}
+            onTapFace={(fid) => {
+              const i = faces.findIndex((f) => f.id === fid);
+              if (i >= 0) goToFace(i);
+              setView('face');
+            }}
+          />
+        </div>
+      ) : view === 'block' && !editing ? (
         <div className="canvas-wrap">
           <BlockView
             faces={faces}

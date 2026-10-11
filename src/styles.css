@@ -458,3 +458,95 @@ button.primary.quiet {
   font-size: 13px;
   pointer-events: none;
 }
+
+/* --- hall map --- */
+.hall {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: #0d0d0d;
+}
+.hall svg {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+.hall-outline {
+  fill: #161616;
+  stroke: #3a3a3a;
+  stroke-width: 0.3;
+  stroke-linejoin: round;
+}
+.hall-block polygon {
+  fill: #2a2a2a;
+  stroke: #555;
+  stroke-width: 0.2;
+  stroke-linejoin: round;
+}
+.hall-block text {
+  font-size: 1.1px;
+  fill: #bbb;
+  pointer-events: none;
+}
+.hall-block.out polygon {
+  fill: #1a1a1a;
+  stroke-dasharray: 0.5 0.4;
+}
+.hall-block.out text {
+  fill: #666;
+}
+.hall-face line {
+  stroke: #888;
+  stroke-width: 0.35;
+  stroke-linecap: round;
+}
+.hall-face line.hit {
+  stroke: transparent;
+  stroke-width: 1.6;
+  cursor: pointer;
+}
+.hall-face.active line:not(.hit) {
+  stroke: #fff;
+  stroke-width: 0.5;
+}
+.hall-face text {
+  font-size: 0.9px;
+  fill: #ddd;
+  pointer-events: none;
+}
+.hall-face.active text {
+  fill: #fff;
+  font-weight: 700;
+}
+.hall-wall .wall-name {
+  font-size: 1px;
+  fill: #777;
+  pointer-events: none;
+}
+.hall-note {
+  font-size: 11px;
+  color: var(--muted);
+  padding: 4px 12px 6px;
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    gap: 6px;
+    padding: 6px 8px;
+  }
+  .topbar .wall-name .muted {
+    display: none;
+  }
+  .seg button {
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+  .face-switcher {
+    gap: 0;
+  }
+  .face-label .muted {
+    display: none;
+  }
+}

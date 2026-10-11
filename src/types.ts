@@ -19,6 +19,15 @@ export interface Wall {
   name: string;
   /** Faces in walking order. */
   faceIds: string[];
+  /** Where the wall's footprint origin sits on the hall schematic (metres), and how it is rotated (degrees). */
+  position?: { x: number; y: number; rotation: number };
+}
+
+/** The hall schematic: an outline and named blocks, in metres, top-down (x right, y down). Not to scale. */
+export interface Hall {
+  note?: string;
+  outline: [number, number][];
+  blocks: { id: string; name: string; inScope: boolean; outline: [number, number][] }[];
 }
 
 export interface Face {
@@ -98,4 +107,5 @@ export interface Data {
   walls: Wall[];
   faces: Face[];
   sets: ClimbingSet[];
+  hall?: Hall;
 }
