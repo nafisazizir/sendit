@@ -107,25 +107,61 @@ Rules:
 
 ## Brand
 
-v1 is built on design tokens with a neutral placeholder theme, so your brand guidelines can be dropped in when they're ready without reworking screens. The hold colours carry the meaning in v1 screens, so the UI around them should stay quiet whatever the brand turns out to be. The share card in v2 is where the brand gets to be loud.
+v1 ships unbranded so the brand work, which will take a while, never holds up the build. The hold colours carry the meaning in v1 screens, so the UI around them should stay quiet whatever the brand turns out to be. The share card in v2 is where the brand gets to be loud.
+
+Three rules keep the later rebrand cheap:
+
+- All colours, type, spacing and radii live in one tokens file from day one.
+- Screens use only our own small set of components (Text, Button, Chip, Sheet, Card and so on), never raw styles.
+- No UI kit with a look of its own, so there's nothing to fight when the brand lands.
+
+With those, a re-skin means changing the components and the tokens file. If the brand changes layouts, those screens get redone, which is work worth doing anyway.
 
 ## Milestones
 
-| Milestone | Delivers | Done when |
+The order of work, and what "done" means for each milestone, is in `docs/roadmap.md`.
+
+## Stack
+
+Native app from the start: the v2 share card (posting straight into an Instagram story) and fast logging at the wall both work better native, and switching later would mean rebuilding the front end.
+
+| Layer | Choice | Why |
 | --- | --- | --- |
-| 0. Before code | Talk to staff (photos of sets, reset rhythm, set dates); brand guidelines underway | Staff are OK with it |
-| 1. Explorer and setting | Hall map, wall page, problem page, admin add-problem flow. No accounts yet | Jawa's current problems are in, each added in under a minute at the wall |
-| 2. Accounts and logging | Invites, sign-in, one-tap logging, statuses, "sent by", Me page | You and two friends log a real session |
-| 3. Whole hall and resets | All six walls, archive, reset flow | One reset handled with everyone's logs intact |
-| v1 done | | Friends open it at the gym without being reminded, for a month |
-| v2 | Sessions, stats, share card on the real brand, comments | |
+| Repo | Monorepo in this repo: pnpm workspaces + Turborepo | Mobile, web and API share types and the API client |
+| Mobile | Expo + Expo Router + TypeScript | iOS and Android from one codebase; React, so the playground experience carries over |
+| Photo and rings | react-native-gesture-handler + Reanimated + Skia | Smooth pinch and zoom; Skia draws the rings now and renders the share card in v2 |
+| Camera and resize | expo-image-picker, expo-image-manipulator | Two sizes made on the phone before upload; no image-processing service |
+| Client data | TanStack Query, plus an offline queue in on-device SQLite | The gym's signal is bad. Log taps are append-only events with ids made on the phone, so syncing later can't create duplicates |
+| Web | Next.js on Vercel (Sydney) | Invite and app links in v1; landing page, v2 share pages and `/admin` later. Talks only to the API |
+| API | Hono (TypeScript) on Fly.io, Sydney (`syd`) | One small always-on server. Railway only has Singapore, about 100 ms further away per round trip. Hono runs anywhere, so moving hosts is cheap |
+| Database | Postgres on Neon, Sydney (`aws-ap-southeast-2`), with Drizzle for schema and migrations | Free tier, close to the gym. It sleeps when idle, so the first query after a quiet spell is slow; fine at this size. Fly's own Postgres starts at US$38 a month |
+| Images | Cloudflare R2, served through Cloudflare's cache on our domain | Images are the bandwidth, and R2 doesn't charge for downloads. The phone uploads straight to R2 through a temporary signed upload link from the API |
+| Auth | Better Auth inside the API: email one-time code, Google, Sign in with Apple | Users and sessions stay in our own Postgres with no vendor, without writing session and token handling by hand. Apple requires Sign in with Apple when Google sign-in is offered. No phone numbers |
+| Email | Resend | Sign-in codes and invites |
+| Builds and updates | EAS Build, EAS Update, TestFlight and Play internal testing | Over-the-air updates ship fixes without a new TestFlight build |
+| Errors | Sentry (free tier) | Crashes on friends' phones are otherwise invisible. No analytics in v1 |
+| CI | GitHub Actions: typecheck and lint | |
+
+Repo layout:
+
+```
+apps/
+  mobile/       Expo app
+  api/          Hono API, Better Auth, Drizzle schema and migrations
+  web/          Next.js: invite links now, landing, share pages and admin later
+  playground/   the original Vite playground, moved unchanged
+packages/
+  shared/       types, zod schemas, grade colours, typed API client
+```
+
+Not used: EC2 (too much server upkeep for a side project), serverless functions for the API (cold starts and database connection pooling for no gain), a vector database (nothing needs embeddings; pgvector in the same Postgres covers it if that changes) and Supabase (its auth and storage would go unused, leaving just Postgres).
+
+Rough running cost: Apple developer account US$99 a year, a domain around $15 a year, a few dollars a month for Fly, and Neon, R2, Resend, Sentry and Vercel on free tiers at this size. Check current pricing when signing up.
 
 ## Decisions still open
 
-- **Web app or native.** A web app installed to the home screen covers all of v1, including the camera in the admin flow. The v2 share card is the deciding factor: saving an image and posting it works from the web, but posting straight into an Instagram story (background, stickers) needs a native app. Decide before milestone 1. Moving from web to native later means rebuilding the front end, not changing the backend.
-- **Sign-in method.** Email magic link, or Apple and Google sign-in.
-- **Stack.** Postgres, auth and image storage from one provider keeps it small; pick at milestone 1.
-- **Name.** Must not use "Urban Climb"; the footer says "unofficial".
+- **Name.** "sendit" is a working name for the first iteration. The final name must not use "Urban Climb", and the footer says "unofficial".
+- **Domain.** Needed for email sending, the API, images and app links. A cheap placeholder is fine until the name is final.
 
 ## Carried over from the playground's open questions
 
